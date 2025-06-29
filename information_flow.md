@@ -32,27 +32,13 @@
   In the visual hierarchy we consider the Retina (eye) as the most bottom level
   and as it goes up into the brain processing, the information goes higher level.
 
-  * If Retina be considered as the source of information where the stimuli 
-  happens, once we observe (earliest), the information goes forward in time,
-  upward to the higher levels in the brain for (later) processing, then the 
-  information path is bottom-up and forward; while the information from the brain
-  to the Retina is backward and top-down. 
-
-
-  * **In Predictive Coding**: Brain is considered as the source of information where the prediction of
-    the stimuli is sourced (earliest), and the information goes forward in time,
-    downward to the lower-level in the brain for (later) assessment, then the
-    information path is top-down and forward; while the information from Retina to
-    the higher level of the brain is backward and bottom-up. (Information is sourced at the brain in time $t=t_0$)
-
-
 
 <br>
 
 
-  <summary> <h2> 
+<h2> 
   Information Flow in Predictive Coding
-  </h2></summary>
+</h2>
 
   The observation happens when the reflected light from outside hits 
   the Retina and passes through it.
@@ -61,6 +47,19 @@
   The stimuli (the input light) is sent forward to the brain to be processed and make the learning 
   happen; solely a bottom-up processing where there is a one-way flow 
   (forward only).
+
+  * **Traditional Bottom-Up Model:** Retina be considered as the source of information where the stimuli 
+  happens, once we observe (earliest), the information goes forward in time,
+  upward to the higher levels in the brain for (later) processing, then the 
+  information path is bottom-up and forward; while the information from the brain
+  to the Retina is backward and top-down. 
+
+
+  * **Predictive Coding Model**: Brain is considered as the source of information where the prediction of
+    the stimuli is sourced (earliest), and the information goes forward in time,
+    downward to the lower-level in the brain for (later) assessment, then the
+    information path is top-down and forward; while the information from Retina to
+    the higher level of the brain is backward and bottom-up. (Information is sourced at the brain in time $t=t_0$)
   
   **Forward pathway:** Retina (RGC) → LGN → V1 → V2 → ... → V4 → IT
   
