@@ -16,10 +16,9 @@
   either top-down or bottom-up information pathway. Considering the sequence of the
   information flow:
   * **Forward**: When the information goes forward in time; it is at the source and  
-  goes away from the source.
+  goes away from the source. (moving with the flow)
   * **Backward**: When the information flows backward in time; it is at the descination
-    and it backs down toward the source. in the opposite direction of forward and . In other words, moving with the flow is called forward pathway 
-  and moving against the flow is called backward pathway.
+    and it backs down toward the source. in the opposite direction of forward. (moving against the flow)
   
 
 * **Forward = Top-down** and **Backward = Bottom-up**
