@@ -8,12 +8,8 @@
   we need to fix its starting point and the direction it follows:
   * The starting point can be either (bottom or top)
   * The direction of movement can be either (up or down)
-  <!-- 🌀🌀🌀🌀🌀🌀 --> <details><summary> <strong> Top-down </strong> </summary>
-   When the information source is at the **top** and it goes **downward**.
-  </details> <!-- END 🌀 -->
-  <!-- 🌀🌀🌀🌀🌀🌀 --> <details><summary> <strong> Bottom-up </strong> </summary>
-   When the information source is at the **bottom** and it goes **upward**. 
-  </details> <!-- END 🌀 -->
+  * **Top-down**: When the information source is at the **top** and it goes **downward**.
+  * **Bottom-up**: When the information source is at the **bottom** and it goes **upward**. 
   <!-- 🌀🌀🌀🌀🌀🌀 --> <details> <summary> <h4> Forward vs Backwards </h4></summary>
   Considering the sequence of the information flow, forward means
   when the information is at the source and goes forward in time 
