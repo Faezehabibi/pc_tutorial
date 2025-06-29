@@ -39,12 +39,11 @@
   to the Retina is backward and top-down. 
 
 
-  * If brain be be considered as the source of information where the prediction of
+  * In Predictive Coding: Brain is considered as the source of information where the prediction of
     the stimuli is sourced (earliest), and the information goes forward in time,
     downward to the lower-level in the brain for (later) assessment, then the
     information path is top-down and forward; while the information from Retina to
-    the higher level of the brain is backward and bottom-up. (Predictive Coding case:
-    information is sourced at the brain in time $t=t_0$)
+    the higher level of the brain is backward and bottom-up. (Information is sourced at the brain in time $t=t_0$)
 
 
 
