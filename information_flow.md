@@ -5,12 +5,14 @@
   <img src="images/Flow.png" width="250" align="right"/>
 
   <h3>Spatial dimension</h3>
+  
   When talking about the information flow and its pathway, we need to fix
   its starting point (either **bottom** or **top**) and the direction it follows (either **up** or **down**):
   * **Top-down**: When the information source is at the **top** and it goes **downward**.
   * **Bottom-up**: When the information source is at the **bottom** and it goes **upward**. 
 
   <h3>Temporal dimension</h3>
+  
   Considering the sequence of the information flow, forward means
   when the information is at the source and goes forward in time 
   (away from the source), while backward means when information 
