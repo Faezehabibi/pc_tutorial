@@ -7,7 +7,7 @@
   In general, when we want to talk about information flow and pathway, 
   we need to fix its starting point and the direction it follows:
   * The starting point can be either (bottom or top)
-  * and the direction of movement can be either (up or down)
+  * The direction of movement can be either (up or down)
   <!-- 🌀🌀🌀🌀🌀🌀 --> <details><summary> <strong> Top-down </strong> </summary>
    When the information source is at the **top**, so it starts 
    from the **top** and goes towards **down** (downward).
