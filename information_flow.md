@@ -49,7 +49,7 @@
 
 <br>
 
-  <details>
+
   <summary> <h2> 
   Information Flow in Predictive Coding
   </h2></summary>
@@ -64,6 +64,3 @@
   
   **Forward pathway:** Retina (RGC) → LGN → V1 → V2 → ... → V4 → IT
   
-  </details>
-   <!-- ------------------------------------------------------------------ -->
-<!-- END 🛜 -->
