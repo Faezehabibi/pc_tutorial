@@ -10,11 +10,11 @@
   * The direction of movement can be either (up or down)
   <!-- 🌀🌀🌀🌀🌀🌀 --> <details><summary> <strong> Top-down </strong> </summary>
    When the information source is at the **top**, so it starts 
-   from the **top** and goes towards **down** (downward).
+   from the **top** and goes **downward**.
   </details> <!-- END 🌀 -->
-  <!-- 🌀🌀🌀🌀🌀🌀 --> <details> <summary> <strong> Bottom-up </strong></summary>
-   When the information source is at the **bottom**, so 
-   it starts from the **top** and goes towards **up** (upward). 
+  <!-- 🌀🌀🌀🌀🌀🌀 --> <details><summary> <strong> Bottom-up </strong> </summary>
+   When the information source is at the **bottom**, so it starts
+   from the **bottom** and goes **upward**. 
   </details> <!-- END 🌀 -->
   <!-- 🌀🌀🌀🌀🌀🌀 --> <details> <summary> <h4> Forward vs Backwards </h4></summary>
   Considering the sequence of the information flow, forward means
