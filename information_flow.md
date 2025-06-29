@@ -12,28 +12,13 @@
   <h3>Temporal dimension</h3>
 
   The information flow creates a stream (direction) where the information
-  flows in time. Depending on the source of information, forward and backward can be
-  either top-down or bottom-up information pathway. Considering the sequence of the
+  flows in time. Depending on the source of information, forward and backward 
+  can be either top-down or bottom-up information pathway Considering the sequence of the
   information flow:
   * **Forward**: When the information goes forward in time; it is at the source and  
   goes away from the source. (moving with the flow)
   * **Backward**: When the information flows backward in time; it is at the descination
     and it backs down toward the source. in the opposite direction of forward. (moving against the flow)
-  
-
-* **Forward = Top-down** and **Backward = Bottom-up**
-   When the information source is at the **top**, so 
-   it starts from the **top** and goes towards **down** (downward).
-   Information moves with the flow (away from the source/
-   up-stream/initial/begining of the stream).
-  </details>  <!-- END 🔹 -->
-
-* **Backward = Top-down** and **Forward = Bottom-up**
-   When the information source is at the **bottom**, so 
-   it starts from the **top** and goes towards **up** (upward). 
-   Information moves against the flow (towards the source).
-   Information moves up (towards the the source/
-   down-stream/initial/end of the stream).
 
   <summary> <h2> 
   Information Flow in the Brain
