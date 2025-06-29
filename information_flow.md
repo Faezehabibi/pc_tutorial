@@ -37,17 +37,8 @@
   there is a unidirectional information flow encoding stimuli and it upward to the higher levels in the
   brain for processing where learning happens. Therefore, retina is the earliest stage in visual processing
   and the information goes forward in time (later) thus information path is bottom-up and forward;
-  while the information from the brain to the Retina is backward and top-down.
- 
-
-  
-  Retina is the earliest stage in visual processing and the information goes
-  forward in time
- 
-  
- ; The stimuli (the input light) is sent forward to the brain to be processed and make the learning 
-  happen; solely a bottom-up processing where there is a one-way flow.
-
+  while the information from the brain to the Retina is backward and top-down. This model is solely a
+  bottom-up processing where there is a one-way flow.
   **Forward only pathway: Retina (RGC) → LGN → V1 → V2 → ... → V4 → IT**
 
   * **Predictive Coding Model**: Brain is considered as the source of information where the prediction of
