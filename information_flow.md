@@ -32,14 +32,20 @@
   In the visual hierarchy we consider the Retina (eye) as the most bottom level
   and as it goes up into the brain processing, the information goes higher level.
 
-  * **Traditional Bottom-Up Model:** Retina be considered as the source of information where the stimuli 
-  happens, once we observe (the observation happens when the reflected light from outside hits 
-  the Retina and passes through it). Retina is the earliest stage in visual processing and the information goes
-  forward in time, upward to the higher levels in the brain for (later) processing, then the 
-  information path is bottom-up and forward; while the information from the brain
-  to the Retina is backward and top-down.
-  Traditionally it has been thought that has unidirectional information flow
-  encoding stimuli; The stimuli (the input light) is sent forward to the brain to be processed and make the learning 
+  * **Traditional Bottom-Up Model:** Considering the retina as the information source, traditionally
+  it has been thought once observe by reflecting light from outside hits the retina and passes through
+  there is a unidirectional information flow encoding stimuli and it upward to the higher levels in the
+  brain for processing where learning happens. Therefore, retina is the earliest stage in visual processing
+  and the information goes forward in time (later) thus information path is bottom-up and forward;
+  while the information from the brain to the Retina is backward and top-down.
+ 
+
+  
+  Retina is the earliest stage in visual processing and the information goes
+  forward in time
+ 
+  
+ ; The stimuli (the input light) is sent forward to the brain to be processed and make the learning 
   happen; solely a bottom-up processing where there is a one-way flow.
 
   **Forward only pathway: Retina (RGC) → LGN → V1 → V2 → ... → V4 → IT**
