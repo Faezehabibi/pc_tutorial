@@ -5,9 +5,7 @@
   <img src="images/Flow.png" width="250" align="right"/>
   
   In general, when we want to talk about information flow and pathway, 
-  we need to fix its starting point and the direction it follows:
-  * The starting point can be either (bottom or top)
-  * The direction of movement can be either (up or down)
+  we need to fix its starting (starting point can be either **bottom** or **top**) point and the direction (The direction of movement can be either **up** or **down**):
   * **Top-down**: When the information source is at the **top** and it goes **downward**.
   * **Bottom-up**: When the information source is at the **bottom** and it goes **upward**. 
   <!-- 🌀🌀🌀🌀🌀🌀 --> <details> <summary> <h4> Forward vs Backwards </h4></summary>
