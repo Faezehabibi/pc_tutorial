@@ -43,10 +43,17 @@
     **Forward only pathway: Retina (RGC) → LGN → V1 → V2 → ... → V4 → IT**
 
   * **Predictive Coding Model**: Brain is considered as the source of information where the prediction of
-    the stimuli is sourced (earliest), and the information goes forward in time,
-    downward to the lower-level in the brain for (later) assessment, then the
-    information path is top-down and forward; while the information from Retina to
-    the higher level of the brain is backward and bottom-up. (Information is sourced at the brain in time $t=t_0$)
+    the stimuli is sourced (earliest), and the information goes forward in time, downward to the lower-level
+    in the brain for (later) assessment, then the prediction path is forward top-down; while the information
+    from retina to the higher level of the brain is backward (prediction error).
+    In predictive coding, the prediction is sourced at the higher level of the brain going downward
+    (prediction signal path is top-down and forward in time (earlier));
+    while the prediction error is sourced at the lower level going upward
+    (error signal gows bottom-up and backward in time (later)).
+    
+    **Forward**
+    
+
   
 
 
