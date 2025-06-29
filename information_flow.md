@@ -12,14 +12,17 @@
   <h3>Temporal dimension</h3>
 
   The information flow creates a stream (direction) where the information
-  flows in time. Considering the sequence of the information flow, forward means
+  flows in time. Depending on the source of information, forward and backward can be
+  either top-down or bottom-up information pathway. Considering the sequence of the
+  information flow:
+  * **Forward**:
+  
   when the information is at the source and goes forward in time 
   (away from the source), while backward means when information 
   flows in the opposite direction and it backs down (toward the 
   source). In other words, moving with the flow is called forward pathway 
   and moving against the flow is called backward pathway.
-  Depending on the source of information, forward and backward can be
-  either top-down or bottom-up information pathway.
+  
 
 * **Forward = Top-down** and **Backward = Bottom-up**
    When the information source is at the **top**, so 
