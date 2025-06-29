@@ -26,11 +26,12 @@
 
   <img src="images/brain_flow.png" width="250" align="right"/>
 
-  In order to specify the brain processing in the unified way, we look 
-  at the brain processing in a vertically; dividing the brain system into 
+  In order to specify the brain processing in the unified way, the brain processing 
+  is considered to be vertically; dividing the brain system into 
   the hierarchy to specify the source and direction of the information.
-  In the visual hierarchy we consider the Retina (eye) as the most bottom level (source) and as we go 
-  deeper up into the brain processing level the information goes higher.
+  In the visual hierarchy we consider the Retina (eye) as the most bottom level
+  and as it goes up into the brain processing, the information goes higher level.
+  
   Also we consider the Retina as the source of information where the stimuli 
   happens at the bottom level once we observe (earliest).
   And the information is sent upward, towards the higher levels in the brain
