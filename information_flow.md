@@ -17,11 +17,8 @@
   information flow:
   * **Forward**: When the information goes forward in time; it is at the source and  
   goes away from the source.
-  * **Backward**:
-  
-  , while backward means when information 
-  flows in the opposite direction and it backs down (toward the 
-  source). In other words, moving with the flow is called forward pathway 
+  * **Backward**: When the information flows backward in time; it is at the descination
+    and it backs down toward the source. in the opposite direction of forward and . In other words, moving with the flow is called forward pathway 
   and moving against the flow is called backward pathway.
   
 
