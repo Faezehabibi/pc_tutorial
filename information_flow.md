@@ -4,8 +4,8 @@
   
   <h3>Spatial dimension</h3>
   
-  When talking about the information flow and its pathway, we need to fix
-  its starting point (either **bottom** or **top**) and the direction it follows (either **up** or **down**):
+  The information flow and its pathway, is determined by their starting point 
+  (either **bottom** or **top**) and the direction they follows (either **up** or **down**):
   * **Top-down**: When the information source is at the **top** and it goes **downward**.
   * **Bottom-up**: When the information source is at the **bottom** and it goes **upward**. 
 
