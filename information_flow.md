@@ -39,7 +39,8 @@
   and the information goes forward in time (later) thus information path is bottom-up and forward;
   while the information from the brain to the Retina is backward and top-down. This model is solely a
   bottom-up processing where there is a one-way flow.
-  **Forward only pathway: Retina (RGC) → LGN → V1 → V2 → ... → V4 → IT**
+ 
+    **Forward only pathway: Retina (RGC) → LGN → V1 → V2 → ... → V4 → IT**
 
   * **Predictive Coding Model**: Brain is considered as the source of information where the prediction of
     the stimuli is sourced (earliest), and the information goes forward in time,
