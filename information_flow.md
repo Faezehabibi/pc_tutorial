@@ -1,9 +1,7 @@
-  <summary> <h2> 
-  Information Flow
-  </h2> </summary>
+<h1> Information Flow </h1>
   
   <img src="images/Flow.png" width="250" align="right"/>
-
+  
   <h3>Spatial dimension</h3>
   
   When talking about the information flow and its pathway, we need to fix
