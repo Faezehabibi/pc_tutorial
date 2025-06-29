@@ -1,6 +1,6 @@
 <h1> Information Flow </h1>
   
-  <img src="images/Flow.png" width="300" align="right"/>
+  <img src="images/Flow.png" width="250" align="right"/>
   
   <h3>Spatial dimension</h3>
   
@@ -24,7 +24,7 @@
   Information Flow in the Brain
   </h2></summary>
 
-  <img src="images/brain_flow.png" width="300" align="right"/>
+  <img src="images/brain_flow.png" width="250" align="right"/>
 
   In order to specify the brain processing in the unified way, the brain processing 
   is considered to be vertically; dividing the brain system into 
