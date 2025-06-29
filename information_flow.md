@@ -40,7 +40,7 @@
   while the information from the brain to the Retina is backward and top-down. This model is solely a
   bottom-up processing where there is a one-way flow.
  
-    **Forward only pathway: Retina (RGC) → LGN → V1 → V2 → ... → V4 → IT**
+    **Forward only pathway: Retina (RGC)**[^1] **→ LGN → V1 → V2 → ... → V4 → IT**
 
   * **Predictive Coding Model**: Brain is considered as the source of information where the prediction of
     the stimuli is sourced (earliest), and the information goes forward in time, downward to the lower-level
@@ -51,15 +51,15 @@
     while the prediction error is sourced at the lower level going upward
     (error signal gows bottom-up and backward in time (later)).
     
-    **Forward pathway: IT → V4 → ... → V1 → V2 → LGN[^1]**
+    **Forward pathway: IT → V4 → ... → V1 → V2 → LGN** [^2]
     
-    **Backward pathway: Retina (RGC)[^2] → LGN → V1 → V2 → ... → V4 → IT**
+    **Backward pathway: Retina (RGC)**[^2] **→ LGN → V1 → V2 → ... → V4 → IT**[^3]
     
 
   
-
- [^1]: LGN = Lateral Geniculate Nucleus
- [^2]: RGC = Retina Ganglion Cell
+ [^1]: RGC = Retina Ganglion Cell
+ [^2]: LGN = Lateral Geniculate Nucleus
+ [^3]: IT = Inferior Temporal Cortex
 
   
 
