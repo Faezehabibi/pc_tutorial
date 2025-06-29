@@ -55,8 +55,6 @@
     
     **Backward pathway: V5/MT ⬅ V4 ⬅ ... ← V1 ⬅ V2 ⬅ LGN**
     
-    ** pathway: Retina (RGC)→ LGN → V1 → V2 → ... → V4 → V5/MT**
-    
 
   
  [^1]: RGC = Retina Ganglion Cell
