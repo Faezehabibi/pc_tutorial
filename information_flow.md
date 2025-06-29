@@ -1,5 +1,3 @@
-
-<details>
   <summary> <h2> 
   Information Flow
   </h2> </summary>
@@ -50,7 +48,7 @@
   !-- ------------------------------------- -->
 </details> <!-- END 🌀 -->
   <!-- ------------------------------------------------------------------ -->
-  <details>
+
   <summary> <h2> 
   Information Flow in the Brain
   </h2></summary>
@@ -69,7 +67,7 @@
   Therefore the information flow is bottom-up and forward
   (starts at $t=t_0$ and reaches to the most top level at $t=T$).
 
-  </details>
+
   <!-- ------------------------------------------------------------------ -->
 <br>
   <!-- ------------------------------------------------------------------ --> 
@@ -90,6 +88,4 @@
   
   </details>
    <!-- ------------------------------------------------------------------ -->
-   
-</details> 
 <!-- END 🛜 -->
