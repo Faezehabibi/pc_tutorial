@@ -8,7 +8,7 @@
   its starting point (either **bottom** or **top**) and the direction it follows (either **up** or **down**):
   * **Top-down**: When the information source is at the **top** and it goes **downward**.
   * **Bottom-up**: When the information source is at the **bottom** and it goes **upward**. 
-  <!-- 🌀🌀🌀🌀🌀🌀 --> <details> <summary> <h4> Forward vs Backwards </h4></summary>
+
   Considering the sequence of the information flow, forward means
   when the information is at the source and goes forward in time 
   (away from the source), while backward means when information 
@@ -38,7 +38,6 @@
    down-stream/initial/end of the stream).
   </details>  <!-- END 🔹 -->
   !-- ------------------------------------- -->
-</details> <!-- END 🌀 -->
   <!-- ------------------------------------------------------------------ -->
 
   <summary> <h2> 
