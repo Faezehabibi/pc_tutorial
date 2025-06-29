@@ -31,18 +31,25 @@
   the hierarchy to specify the source and direction of the information.
   In the visual hierarchy we consider the Retina (eye) as the most bottom level
   and as it goes up into the brain processing, the information goes higher level.
-  
-  Also we consider the Retina as the source of information where the stimuli 
-  happens at the bottom level once we observe (earliest).
-  And the information is sent upward, towards the higher levels in the brain
-  for later processing.
-  Therefore the information flow is bottom-up and forward
-  (starts at $t=t_0$ and reaches to the most top level at $t=T$).
+
+  * If Retina be considered as the source of information where the stimuli 
+  happens, once we observe (earliest), the information goes forward in time,
+  upward to the higher levels in the brain for (later) processing, then the 
+  information path is bottom-up and forward; while the information from the brain
+  to the Retina is backward and top-down. 
 
 
-  <!-- ------------------------------------------------------------------ -->
+  * If brain be be considered as the source of information where the prediction of
+    the stimuli is sourced (earliest), and the information goes forward in time,
+    downward to the lower-level in the brain for (later) assessment, then the
+    information path is top-down and forward; while the information from Retina to
+    the higher level of the brain is backward and bottom-up. (Predictive Coding case:
+    information is sourced at the brain in time $t=t_0$)
+
+
+
 <br>
-  <!-- ------------------------------------------------------------------ --> 
+
   <details>
   <summary> <h2> 
   Information Flow in Predictive Coding
