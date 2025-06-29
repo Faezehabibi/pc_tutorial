@@ -51,15 +51,14 @@
     while the prediction error is sourced at the lower level going upward
     (error signal gows bottom-up and backward in time (later)).
     
-    **Forward pathway: IT → V4 → ... → V1 → V2 → LGN**
-    **Backward pathway: Retina (RGC) → LGN → V1 → V2 → ... → V4 → IT**
+    **Forward pathway: IT → V4 → ... → V1 → V2 → LGN[^longnote]**
+    **Backward pathway: Retina (RGC)[^longnote] → LGN → V1 → V2 → ... → V4 → IT**
     
 
   
 
-
-LGN = Lateral Geniculate Nucleus
-RGC = Retina Ganglion Cell
+ [^longnote]: LGN = Lateral Geniculate Nucleus
+ [^longnote]: RGC = Retina Ganglion Cell
 
   
 
