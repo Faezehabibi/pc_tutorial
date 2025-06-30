@@ -23,23 +23,19 @@ to stimulate the neuron (increase or decrease the neuron's respond), directly or
 In order for brain to process complex patterns, neurons have different types of receptive fields.
 
 
-  <!-- ------------------------- -->
-  <details><summary> <h3>Classical Receptive Field (CRF)</h3> </summary>
+
+  <h3>Classical Receptive Field (CRF)</h3>
   The primary area within the neuron's receptive field where stimulation can 
   directly effects the neuron's response; can either excite or inhibit the neuron.
-  </details>
-  <!-- ------------------------- -->
-  <details><summary> <h3>Extra-Classical Receptive Field (ECRF)</h3> </summary>
+   * Center-surround:
+
+
+  <h3>Extra-Classical Receptive Field (ECRF)</h3>
    Extra-classical receptive field of a neuron (or non-classical receptive field)
    is the complementary area within the neuron's receptive field that is not intersecting
    with its classical receptive field. In other words, the part of a neuron's receptive field 
    which cannot directly (by itself) effect the neuron to response, but rather it indirectly can
    influence it is called the extra-classical receptive field of the neuron.
-  </details>
-
-<!-- ------------------------------------------------------------------ -->
-
-
 
 
 
