@@ -29,11 +29,22 @@ In order for brain to process complex patterns, neurons have different types of 
   directly effects the neuron's response; can either excite or inhibit the neuron.
 
   <h4> Retinal Center-surround Receptive Fields </h4>
-  * On-center/Off-surround cells
-  * Off-center/On-surround cells
+  
+  * **On-center/Off-surround cells**: The cells which respond is maximum to stimulus with bright center
+    and dark surrounds. These cells respond gets suppressed (stop responding) if the stimulus has otherwise patter (dark center
+    with bright around)
+    
+  * **Off-center/On-surround cells**: The cells which respond is maximum to stimulus with dark center
+    and bright surrounds. These cells respond gets suppressed (stop responding) if the stimulus has otherwise
+    patter (bright center with dark around)
 
 
-  <h3>Extra-Classical Receptive Field (ECRF)</h3>
+
+
+--------------------------------------------------------------------------
+
+
+  <h4> Extra-Classical Receptive Field (ECRF) </h4>
    Extra-classical receptive field of a neuron (or non-classical receptive field)
    is the complementary area within the neuron's receptive field that is not intersecting
    with its classical receptive field. In other words, the part of a neuron's receptive field 
@@ -43,7 +54,6 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 
---------------------------------------------------------------------------
 
 
 <!-- ------------------------------------------------------------------ -->
