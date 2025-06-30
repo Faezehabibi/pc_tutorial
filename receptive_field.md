@@ -9,24 +9,22 @@
   
   **Inactive Neuron**: When a neuron’s activity is decreased as a respond to an input stimulus, 
   it shows inhibitory response and we say “the stimulus inhibits neuron”.
-  
---------------------------------------------------------------------------
 
 
+In brain, different neurons are specialized to respond to specific sensory patterns. Receptive field is 
+the property of a neuron that is used to represent a sensory pattern or stimulation that is expected 
+to stimulate the neuron (increase or decrease the neuron's respond), directly or indirectly. [^longnote]. 
 
-<!-- ------------------------------------------------------------------ -->
-<!-- Receptive Field -->
-<!-- ------------------------------------------------------------------ -->
-### Receptive Field (RF)
-
-  Receptive field is the property of a neuron that is used to represent a 
-  sensory pattern or stimulation that is expected to stimulate the neuron 
-  (increase or decrease the neuron's respond), directly or indirectly. [^longnote]. 
   
   [^longnote]: In the hierarchy, the receptive field of neurons spans to extended field as a 
   higher-level neuron responds to a collection of neural responses at the level 
   below which collectively forms the receptive field of that neuron characterizing
   the stimuli pattern which is most likely to make the neuron fire [2]. 
+
+
+In order for brain to process complex patterns, neurons have different types of receptive fields.
+
+
   <!-- ------------------------- -->
   <details><summary> <h3>Classical Receptive Field (CRF)</h3> </summary>
   The primary area within the neuron's receptive field where stimulation can 
