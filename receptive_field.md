@@ -1,13 +1,11 @@
 <h1> Neural Activation and Receptive Field </h1>
 
-  A neuron can be either active (excited) or inactive (inhibited) in response to a stimulus. Active neuron is,
-  the one that positively responses to a stimulus and inactive neuron is the one that does not respond to a stimulus 
-  (its activity is suppressed/inhibited).
+  A neuron can be either active (excited) or inactive (inhibited) in response to a stimulus.
 
-  **Active Neuron**: When a neuron’s activity is increased as a respond to an input stimulus, 
-  it shows excitatory response and we say “the stimulus excites neuron”.
+  **Active Neuron**: When a neuron positively responses to a stimulus and its activity is increased as a respond
+  to an input stimulus, it shows excitatory response and we say “the stimulus excites neuron”.
   
-  **Inactive Neuron**: When a neuron’s activity is decreased as a respond to an input stimulus, 
+  **Inactive Neuron**: When a neuron activity is decreased (suppressed/inhibited) as a respond to an input stimulus, 
   it shows inhibitory response and we say “the stimulus inhibits neuron”.
 
 
