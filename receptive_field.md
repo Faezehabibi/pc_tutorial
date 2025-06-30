@@ -58,21 +58,17 @@ In order for brain to process complex patterns, neurons have different types of 
    The prior assumption is that the same stimuli in ECRF also repeats in the CRF 
    because in natural image (what our brain is trained on) scenes have conceptual 
    correlation meaning that usually the same pattern is continuous in small areas 
-   (patches) in an observation.
+   (patches) in an observation; and the same pattern spans both classical receptive 
+   fields and extra classical receptive fields of a neuron. If the assumption turns
+   out to be true the ECRF can modulate the neuron's response to its CRF, while if 
+   the input stimulus within the CRF deviates from what the stimulus context in 
+   ECRF, the prediction has a larger error and the neuron responds vigorously.
 
-   Depending on if ECRF can modulate the neuron's response to its CRF or not; If the input 
-   stimulus within the CRF deviates from what the stimulus context in ECRF predicts; the 
-   neuron responds vigorously.
-   
---------------------------------------------------------------------------
-
-This prediction of neurons response made based on the prior assumption (generalizatin of the stimuli to CRF) 
-can have several effects on the neuron's activity.
-
-   Depending on the type of deviation, the extra-classical 
-   receptive field effect can be grouped as below:
-
-  > "A vigorous response to an stimuli within the neuron's classical receptive field 
+   This prediction of neurons response made based on the prior assumption (generalizatin
+   of the stimuli to CRF) can have several effects on the neuron's activity. Depending on 
+   the type of deviation, the extra-classical receptive field effect can be grouped as below:
+  
+   > "A vigorous response to an stimuli within the neuron's classical receptive field 
    that was most likely to activate the neuron is reduced or eliminated when the same 
    stimulus extends beyond the neuron’s classical receptive field (RF)" [1].
     
@@ -81,49 +77,50 @@ can have several effects on the neuron's activity.
    response is evoked from the error-detecting neurons because the
   ‘surround’ can predict the ‘center.’ On the other hand, when the
    stimulus occurs in isolation, such a prediction fails, eliciting a
-   relatively large response" [1,3]. This modulation can bring several Extra Classical Receptive 
+   relatively large response" [1,3].
+
+   This modulation can bring several Extra Classical Receptive 
    Fields effects:
-
+   
    * **End-stopping (End-inhibition) Effects**
+     Surround Suppression: The case when the same conceptual/contextual stimuli as
+     the extra-classical receptive field spans through the classical receptive field as
+     well, the neuron's responsece can  be predicted accurately by generalizing the
+     extra-classical receptive field stimuli.
 
+     In case that the stimuli in the classical receptive field contexually differs from
+     ones in extra-classical receptive field, the neuron's responsece cannot be predicted
+     correctly and the concepualizing assumption goes wrong.
 
+     * **Length Tuned End-stopping (End-inhibition) Effect**:
+       The neuron's response is suppressed when an optimally oriented bar extends
+       beyond neuron's classical receptive fields; which arise due to the orientation-dependant
+        correlation in the nature. This indicates that neuron responds (activates) when the
+        classical receptive fields carries information and do not responds the information is
+        already been sent to the brain system. This indicates the brain is using efficient
+        coding (redundancy reduction).
 
+     * **Other Contextual Surround Effects**:
+      ** Orientation Tuned
+      ** Orientation Contrast Grating:** 
+      ** Texture Effects:** 
+      ** Contextual Modulation:** 
+      ** Pop-out Texture:**
 
+     
+--------------------------------------------------------------------------
 
-
-
-
-Surround Suppression: The case when the same conceptual/contextual stimuli as the extra-classical 
-receptive field spans through the classical receptive field as well, the neuron's responsece can 
-be predicted accurately by generalizing the extra-classical receptive field stimuli.
-
-In case that the stimuli in the classical receptive field contexually differs from ones in
-extra-classical receptive field, the neuron's responsece cannot be predicted correctly and 
-the concepualizing assumption goes wrong.
-
-
-
-  <!-- ------------------------- -->
-<h3> End-stopping (End-inhibition) Effects </h3>
-  Length Tuned
-  The neuron's response is suppressed when an optimally oriented bar extends
-  beyond neuron's classical receptive fields; which arise due to the orientation-dependant
-  correlation in the nature. 
-  This indicates that neuron responds (activates) when the classical receptive fields
-  carries information and do not responds the information is already been sent to the brain system.
-  This indicates the brain is using efficient coding (redundancy reduction).
-
-<h3> Other Contextual Surround Effects </h3>
-  Orientation Tuned
-  Orientation Tuned
-   
-  ** Orientation Contrast Grating:** 
-  ** Texture Effects:** 
-  ** Contextual Modulation:** 
-  ** Pop-out Texture:** 
-   
   To investigate whether some of these effects could
   result from the extended positive correlations along dominant
-  orientation directions in natural images
+  orientation directions in natural images, 
+
+
+
+
+
+
+
+
+  
 
 
