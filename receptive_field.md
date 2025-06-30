@@ -27,7 +27,10 @@ In order for brain to process complex patterns, neurons have different types of 
   <h3>Classical Receptive Field (CRF)</h3>
   The primary area within the neuron's receptive field where stimulation can 
   directly effects the neuron's response; can either excite or inhibit the neuron.
-   * Center-surround:
+
+  <h4> Retinal Center-surround Receptive Fields </h4>
+  * On-center/Off-surround cells
+  * Off-center/On-surround cells
 
 
   <h3>Extra-Classical Receptive Field (ECRF)</h3>
