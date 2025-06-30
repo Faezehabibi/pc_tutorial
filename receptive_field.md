@@ -1,14 +1,12 @@
-<details><summary> <h2> Neural Activation and Receptive Field </h2> </summary>    
+<h1> Neural Activation and Receptive Field </h1>
 
-  
-### Neural Activation
   A neuron can be either active (excited) or inactive (inhibited) in response to a stimulus.
    **Active neuron**: A neuron that positively responses to a stimulus.
    **Inactive neuron**: A neuron that does not respond to a stimulus (its activity is suppressed/inhibited).
 
-  **Active Neuron: When a neuron’s increases its activity to an input stimulus, 
+  **Active Neuron**: When a neuron’s increases its activity to an input stimulus, 
   it shows excitatory response and we say “the stimulus excites neuron”.
-  **Inactive Neuron: When a neuron’s decreases its activity to an input stimulus, 
+  **Inactive Neuron**: When a neuron’s decreases its activity to an input stimulus, 
   it shows inhibitory response and we say “the stimulus inhibits neuron”.
   
 --------------------------------------------------------------------------
@@ -122,12 +120,5 @@ effect can be grouped as below:
   
   </details>
 </details>
-
-
-
-</details>
-
-
-
 
 
