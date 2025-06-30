@@ -101,11 +101,11 @@ In order for brain to process complex patterns, neurons have different types of 
         coding (redundancy reduction).
 
      * **Other Contextual Surround Effects**:
-      ** Orientation Tuned
-      ** Orientation Contrast Grating:** 
-      ** Texture Effects:** 
-      ** Contextual Modulation:** 
-      ** Pop-out Texture:**
+       Orientation Tuned
+       Orientation Contrast Grating:
+       Texture Effects:
+       Contextual Modulation:
+       Pop-out Texture:
 
      
 --------------------------------------------------------------------------
