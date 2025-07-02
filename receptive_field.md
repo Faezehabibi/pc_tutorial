@@ -41,7 +41,6 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 
------------------------------------------------------------------------------------------------------------
 
   <h3>Classical Receptive Field (CRF)</h3>
   
@@ -86,22 +85,14 @@ In order for brain to process complex patterns, neurons have different types of 
    This prediction of neurons response made based on the prior assumption (generalizatin
    of the stimuli to CRF) can have several effects on the neuron's activity. Depending on 
    the type of deviation, the extra-classical receptive field effect can be grouped as below:
-  
-   > "A vigorous response to an stimuli within the neuron's classical receptive field 
-   that was most likely to activate the neuron is reduced or eliminated when the same 
-   stimulus extends beyond the neuron’s classical receptive field (RF)" [1].
-    
-   > "When the stimulus properties in a neuron’s receptive field
-   match the stimulus properties in the surrounding region, little
-   response is evoked from the error-detecting neurons because the
-  ‘surround’ can predict the ‘center.’ On the other hand, when the
-   stimulus occurs in isolation, such a prediction fails, eliciting a
-   relatively large response" [1,3].
 
-   This modulation can bring several Extra Classical Receptive 
-   Fields effects:
+-----------------------------------------------------------------------------------------------------------
    
    * **End-stopping (End-inhibition) Effects**
+       
+     > "A vigorous response to an stimuli within the neuron's classical receptive field 
+     that was most likely to activate the neuron is reduced or eliminated when the same 
+     stimulus extends beyond the neuron’s classical receptive field (RF)" [1].
      
      **Surround Suppression:** The case when the same conceptual/contextual stimuli as
      the extra-classical receptive field spans through the classical receptive field as
@@ -118,6 +109,14 @@ In order for brain to process complex patterns, neurons have different types of 
      is already been sent to the brain system. This indicates the brain is using efficient coding (redundancy reduction).
 
    * **Other Contextual Surround Effects**:
+     
+     > "When the stimulus properties in a neuron’s receptive field
+     match the stimulus properties in the surrounding region, little
+     response is evoked from the error-detecting neurons because the
+    ‘surround’ can predict the ‘center.’ On the other hand, when the
+     stimulus occurs in isolation, such a prediction fails, eliciting a
+     relatively large response" [1,3].
+     
        **Orientation Tuned:** <br>
        **Orientation Contrast Grating:** <br>
        **Texture Effects:** <br>
