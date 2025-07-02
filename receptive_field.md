@@ -1,6 +1,6 @@
 <h1> Neural Activation and Receptive Field </h1>
 
-  <img src="images/active_inactive_neuron.png" width="200" align="right"/>
+  <img src="images/active_inactive_neuron.png" width="300" align="right"/>
 
 
   
