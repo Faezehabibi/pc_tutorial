@@ -28,8 +28,7 @@ expected to stimulate the neuron (increase or decrease the neuron's respond), di
 
 * **Classical RF**: The region where the neuron directly responds to the stimulus, positively or negatively, is called Classical Receptive Field (CRF).
 
-
-* **Extra-classical RF**: The region outside of the neuron's classical receptive field if can cause neuron to respond indirectly to the stimulus, positively or negatively, is called Cxtra-classical Receptive Field (ECRF) or non-classical RF.
+* **Extra-classical RF (Non-classical RF)**: The region outside of the neuron's classical receptive field if can cause neuron to respond indirectly to the stimulus, positively or negatively, is called Cxtra-classical Receptive Field (ECRF) or non-classical RF.
 
 
 
