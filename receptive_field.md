@@ -1,5 +1,6 @@
 <h1> Neural Activation and Receptive Field </h1>
-
+  
+  In the brain, different neurons are specialized to respond to specific patterns of sensory inputs. 
   A neuron can be either active (excited) or inactive (inhibited) in response to a stimulus.
 
   **Active Neuron**: When a neuron positively responses to a stimulus and its activity is increased as a respond
@@ -8,12 +9,19 @@
   **Inactive Neuron**: When a neuron activity is decreased (suppressed/inhibited) as a respond to an input stimulus, 
   it shows inhibitory response and we say “the stimulus inhibits neuron”.
 
+------------------------------------------------------
+<h2>Receptive Field </h3>
 
-In brain, different neurons are specialized to respond to specific sensory patterns. Receptive field is 
-the property of a neuron that is used to represent a sensory pattern or stimulation that is expected 
-to stimulate the neuron (increase or decrease the neuron's respond), directly or indirectly. [^longnote]. 
+Receptive field is the property of a neuron that is used to represent a sensory pattern or stimulation that is 
+expected to stimulate the neuron (increase or decrease the neuron's respond), directly or indirectly. [^longnote]. 
 
-  
+
+The region where the neuron directly responds to the stimulus, positively or negatively, is called Classical Receptive Field (CRF).
+
+The region outside of the neuron's classical receptive field if can cause neuron to respond indirectly to the stimulus, positively or negatively, is called Cxtra-classical Receptive Field (ECRF) or non-classical RF.
+
+
+------------------------------------------------------
   [^longnote]: In the hierarchy, the receptive field of neurons spans to extended field as a 
   higher-level neuron responds to a collection of neural responses at the level 
   below which collectively forms the receptive field of that neuron characterizing
