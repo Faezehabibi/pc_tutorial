@@ -15,8 +15,6 @@
 
 <h2>Receptive Field</h2>
 
-  <img src="images/neural_receptive_field_real.png" width="200" align="right"/>
-
 Receptive field is the property of a neuron that is used to represent a sensory pattern or stimulation that is 
 expected to stimulate the neuron (increase or decrease the neuron's respond), directly or indirectly. [^longnote]. 
 
@@ -27,7 +25,7 @@ expected to stimulate the neuron (increase or decrease the neuron's respond), di
 * **Extra-classical RF**: The region outside of the neuron's classical receptive field if can cause neuron to respond indirectly to the stimulus, positively or negatively, is called Cxtra-classical Receptive Field (ECRF) or non-classical RF.
   <img src="images/neural_receptive_field_real.png" width="100" align="right"/>
 
-
+k
 ------------------------------------------------------
   [^longnote]: In the hierarchy, the receptive field of neurons spans to extended field as a 
   higher-level neuron responds to a collection of neural responses at the level 
