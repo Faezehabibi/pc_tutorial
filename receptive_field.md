@@ -9,7 +9,7 @@
   **Inactive Neuron**: When a neuron activity is decreased (suppressed/inhibited) as a respond to an input stimulus, 
   it shows inhibitory response and we say “the stimulus inhibits neuron”.
 
-------------------------------------------------------
+
 <h2>Receptive Field </h3>
 
   <img src="images/neural_receptive_field_real.png" width="200" align="right"/>
