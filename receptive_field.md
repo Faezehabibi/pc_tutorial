@@ -1,6 +1,8 @@
 <h1> Neural Activation and Receptive Field </h1>
 
-  <img src="images/receptive_field.png" width="300" align="right"/>
+  <img src="images/active_inactive_neuron.png" width="300" align="right"/>
+
+
   
 
   In the brain, different neurons are specialized to respond to specific patterns of sensory inputs. 
@@ -14,6 +16,9 @@
 
 
 <h2>Receptive Field</h2>
+
+  <img src="images/receptive_field.png" width="300" align="right"/>
+
 
 Receptive field is the property of a neuron that is used to represent a sensory pattern or stimulation that is 
 expected to stimulate the neuron (increase or decrease the neuron's respond), directly or indirectly. [^longnote]. 
