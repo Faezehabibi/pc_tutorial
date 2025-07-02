@@ -15,7 +15,7 @@
   it shows inhibitory response and we say “the stimulus inhibits neuron”.
 
 
-------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 <h2>Receptive Field</h2>
 
@@ -41,6 +41,7 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 
+-----------------------------------------------------------------------------------------------------------
 
   <h3>Classical Receptive Field (CRF)</h3>
   
