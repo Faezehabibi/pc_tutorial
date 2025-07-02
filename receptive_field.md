@@ -102,29 +102,27 @@ In order for brain to process complex patterns, neurons have different types of 
    Fields effects:
    
    * **End-stopping (End-inhibition) Effects**
-     Surround Suppression: The case when the same conceptual/contextual stimuli as
+     
+     **Surround Suppression:** The case when the same conceptual/contextual stimuli as
      the extra-classical receptive field spans through the classical receptive field as
      well, the neuron's responsece can  be predicted accurately by generalizing the
      extra-classical receptive field stimuli.
-
      In case that the stimuli in the classical receptive field contexually differs from
      ones in extra-classical receptive field, the neuron's responsece cannot be predicted
      correctly and the concepualizing assumption goes wrong.
+     
+     **Length Tuned End-stopping (End-inhibition) Effect**: The neuron's response is suppressed
+     when an optimally oriented bar extends beyond neuron's classical receptive fields; which arise
+     due to the orientation-dependant correlation in the nature. This indicates that neuron responds
+     (activates) when the classical receptive fields carries information and do not responds the information
+     is already been sent to the brain system. This indicates the brain is using efficient coding (redundancy reduction).
 
-     * **Length Tuned End-stopping (End-inhibition) Effect**:
-       The neuron's response is suppressed when an optimally oriented bar extends
-       beyond neuron's classical receptive fields; which arise due to the orientation-dependant
-        correlation in the nature. This indicates that neuron responds (activates) when the
-        classical receptive fields carries information and do not responds the information is
-        already been sent to the brain system. This indicates the brain is using efficient
-        coding (redundancy reduction).
-
-     * **Other Contextual Surround Effects**:
-       Orientation Tuned
-       Orientation Contrast Grating:
-       Texture Effects:
-       Contextual Modulation:
-       Pop-out Texture:
+   * **Other Contextual Surround Effects**:
+       **Orientation Tuned:** <br>
+       **Orientation Contrast Grating:** <br>
+       **Texture Effects:** <br>
+       **Contextual Modulation:** <br>
+      **Pop-out Texture:** <br>
 
      
 --------------------------------------------------------------------------
