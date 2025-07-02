@@ -41,6 +41,7 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 
+-----------------------------------------------------------------------------------------------------------
 
   <h3>Classical Receptive Field (CRF)</h3>
   
@@ -59,6 +60,7 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 
+-----------------------------------------------------------------------------------------------------------
 
   <h3> Extra-Classical Receptive Field (ECRF) </h3>
   
