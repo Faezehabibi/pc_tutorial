@@ -15,7 +15,7 @@
   it shows inhibitory response and we say “the stimulus inhibits neuron”.
 
 
-------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 
 <h2>Receptive Field</h2>
 
@@ -24,6 +24,7 @@
 
 Receptive field is the property of a neuron that is used to represent a sensory pattern or stimulation that is 
 expected to stimulate the neuron (increase or decrease the neuron's respond), directly or indirectly. [^longnote]. 
+In order for brain to process complex patterns, neurons have different types of receptive fields according to their effect on the neuron.
 
 
 * **Classical RF**: The region where the neuron directly responds to the stimulus, positively or negatively, is called Classical Receptive Field (CRF).
@@ -32,14 +33,12 @@ expected to stimulate the neuron (increase or decrease the neuron's respond), di
 
 
 
-------------------------------------------------------
   [^longnote]: In the hierarchy, the receptive field of neurons spans to extended field as a 
   higher-level neuron responds to a collection of neural responses at the level 
   below which collectively forms the receptive field of that neuron characterizing
   the stimuli pattern which is most likely to make the neuron fire [2]. 
 
 
-In order for brain to process complex patterns, neurons have different types of receptive fields.
 
 
 
