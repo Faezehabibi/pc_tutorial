@@ -137,6 +137,7 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 
+  <img src="images/v1_n3.png" width="250" align="right"/>
 
 
   
