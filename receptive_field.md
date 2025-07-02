@@ -1,4 +1,7 @@
 <h1> Neural Activation and Receptive Field </h1>
+
+  <img src="images/receptive_field.png" width="300" align="right"/>
+
   
   In the brain, different neurons are specialized to respond to specific patterns of sensory inputs. 
   A neuron can be either active (excited) or inactive (inhibited) in response to a stimulus.
