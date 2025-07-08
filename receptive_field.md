@@ -124,7 +124,10 @@ In order for brain to process complex patterns, neurons have different types of 
 -----------------------------------------------------------------------------------------------------------
 
 
-   * **Other Contextual Surround Effects**:
+   * **Other Contextual Modulation Mechanism Effects**:
+     * **Orientation Contrast Grating:** Neurons response to oriented gratings increases if the
+       orientation contrast between their classical RF and extra-classical RF (surrounding region);
+        while the same neuron's respond is suppressed if the same orientation of gratings extends in both regions. 
 
      > "When the stimulus properties in a neuron’s classical receptive field
      match the stimulus properties in the surrounding region (ECRF), little
@@ -133,15 +136,14 @@ In order for brain to process complex patterns, neurons have different types of 
      > [Rao & Ballard, 1999]
       
      
-       **Orientation Tuned:** <br>
-       **Orientation Contrast Grating:** <br>
+
+
        **Texture Effects:** <br>
-       **Contextual Modulation:** <br>
       **Pop-out Texture:** <br>
 
      
 --------------------------------------------------------------------------
-Length Tuned End-stopping Effect  indicates the brain is using efficient coding (redundancy reduction).
+Contextual Modulation and Surround Suppression effects indicates the brain is using efficient coding (redundancy reduction).
      
   To investigate whether some of these effects could
   result from the extended positive correlations along dominant
