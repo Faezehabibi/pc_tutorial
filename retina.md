@@ -1,4 +1,4 @@
-<h1>Retina</h1>
+<h1>Retina and LGN</h1>
 
 Retina preprocess the input information before sending to the brain's visual processing system. 
 When the light beam hits an object and reflects, if it finds its way to our Retina, the retina acts 
