@@ -94,7 +94,7 @@ In order for brain to process complex patterns, neurons have different types of 
        
      > "A vigorous response to an stimuli within the neuron's classical receptive field 
      that was most likely to activate the neuron is reduced or eliminated when the same 
-     stimulus extends beyond the neuron’s classical receptive field (RF)" [1].
+     stimulus extends beyond the neuron’s classical receptive field (RF)" [Rao & Ballard, 1999].
      
      **Surround Suppression:** The case when the same conceptual/contextual stimuli as
      the extra-classical receptive field spans through the classical receptive field as
