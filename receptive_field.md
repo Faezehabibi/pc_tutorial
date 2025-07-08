@@ -113,11 +113,9 @@ In order for brain to process complex patterns, neurons have different types of 
   A neural mechanism by which the stimuli context in the surrounding regions of 
   classical RF can influence neural responses indirectly which causes Surround Suppression.  
 
-    > "When the stimulus properties in a neuron’s classical receptive field
-    match the stimulus properties in the surrounding region (ECRF), little
-    response is evoked from the the neuron while when the stimulus occurs
-    in isolation, neuron eliciting a relatively large response.
-    [Rao & Ballard, 1999]
+    > "When the stimulus properties in a neuron’s classical receptive field match the stimulus properties in the 
+      surrounding region (ECRF), little response is evoked from the the neuron while when the stimulus occurs in the
+       isolation, neuron eliciting a relatively large response." [Rao & Ballard, 1999]
 
   * **Surround Suppression:** A phenomenon when contextual modulation have inhibitory effects and thus stimuli 
   in areas surrounding the classical receptive field reduce the neuron's response. 
