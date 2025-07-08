@@ -142,20 +142,7 @@ In order for brain to process complex patterns, neurons have different types of 
 
      
 --------------------------------------------------------------------------
-Contextual Modulation and Surround Suppression effects indicates the brain is using efficient coding (redundancy reduction).
-     
-  To investigate whether some of these effects could
-  result from the extended positive correlations along dominant
-  orientation directions in natural images, 
 
-
-     
-     > "When the stimulus properties in a neuron’s receptive field
-     match the stimulus properties in the surrounding region, little
-     response is evoked from the error-detecting neurons because the
-    ‘surround’ can predict the ‘center.’ On the other hand, when the
-     stimulus occurs in isolation, such a prediction fails, eliciting a
-     relatively large response" [1,3].
 
 
 
