@@ -66,7 +66,8 @@ In order for brain to process complex patterns, neurons have different types of 
 
   <img src="images/crf_ecrf.png" width="300" align="right"/>
 
-  
+
+
    Extra-classical receptive field of a neuron (or non-classical receptive field)
    is the complementary area within the neuron's receptive field that is not intersecting
    with its classical receptive field. In other words, the part of a neuron's receptive field 
@@ -93,6 +94,11 @@ In order for brain to process complex patterns, neurons have different types of 
 
 -----------------------------------------------------------------------------------------------------------
    
+  **Contextual Modulation:** A neural mechanism by which the stimuli context in the surrounding regions of classical RF can influence neural responses indirectly which causes Surround Suppression.  
+
+  **Surround Suppression:** A phenomenon when contextual modulation have inhibitory effects and thus stimuli in areas surrounding the classical receptive field reduce the neuron's response.
+
+
    * **End-stopping (End-inhibition) Effects**
        
      > "A vigorous response to an stimuli within the neuron's classical receptive field 
