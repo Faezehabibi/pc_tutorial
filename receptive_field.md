@@ -92,35 +92,34 @@ In order for brain to process complex patterns, neurons have different types of 
    of the stimuli to CRF) can have several effects on the neuron's activity. Depending on 
    the type of deviation, the extra-classical receptive field effect can be grouped as below:
 
+    > "A vigorous response to an stimuli within the neuron's classical receptive field 
+    that was most likely to activate the neuron is reduced or eliminated when the same 
+    stimulus extends beyond the neuron’s classical receptive field (RF)"
+    > [Rao & Ballard, 1999]
+     
+  **Contextual Modulation:** A neural mechanism by which the stimuli context in the surrounding regions of 
+  classical RF can influence neural responses indirectly which causes Surround Suppression.  
+
+  **Surround Suppression:** A phenomenon when contextual modulation have inhibitory effects and thus stimuli 
+  in areas surrounding the classical receptive field reduce the neuron's response. 
+  The case when the same conceptual/contextual stimuli as the extra-classical receptive field spans through 
+  the classical receptive field as well, the neuron's responsece can  be predicted accurately by generalizing 
+  the extra-classical receptive field stimuli. In the case that the stimuli in the classical receptive field 
+  contexually differs from ones in extra-classical receptive field, the neuron's responsece cannot be predicted
+  correctly and the concepualizing assumption goes wrong; and thus neurons stay active.
+  
+  End-stopping (End-inhibition) effect is an example for surround suppression and Length-Tuned End-stopping
+  effect is a subcategory of scenarious where neurons shows end-stopping effects.
+
+   **Length Tuned End-stopping Effect:** The neuron's response is suppressed when an
+   optimally oriented bar (excitory stimuli for bar detecting neurons) extends beyond
+   neuron's classical receptive fields. This indicates that neuron responds (activates)
+   when the classical receptive fields carries information and do not responds to the
+   information that is already predictable by the brain system. This indicates the brain
+   is using efficient coding (redundancy reduction).
+
+
 -----------------------------------------------------------------------------------------------------------
-   
-  **Contextual Modulation:** A neural mechanism by which the stimuli context in the surrounding regions of classical RF can influence neural responses indirectly which causes Surround Suppression.  
-
-  **Surround Suppression:** A phenomenon when contextual modulation have inhibitory effects and thus stimuli in areas surrounding the classical receptive field reduce the neuron's response.
-
-
-   * **End-stopping (End-inhibition) Effects**
-       
-     > "A vigorous response to an stimuli within the neuron's classical receptive field 
-     that was most likely to activate the neuron is reduced or eliminated when the same 
-     stimulus extends beyond the neuron’s classical receptive field (RF)"
-     > [Rao & Ballard, 1999]
-
-     **Length Tuned End-stopping Effect**: The neuron's response is suppressed when an
-     optimally oriented bar (excitory stimuli for bar detecting neurons) extends beyond
-     neuron's classical receptive fields. This indicates that neuron responds (activates)
-     when the classical receptive fields carries information and do not responds to the
-     information that is already predictable by the brain system. This indicates the brain
-     is using efficient coding (redundancy reduction).
-     
-     **Surround Suppression:** The case when the same conceptual/contextual stimuli as
-     the extra-classical receptive field spans through the classical receptive field as
-     well, the neuron's responsece can  be predicted accurately by generalizing the
-     extra-classical receptive field stimuli.
-     In the case that the stimuli in the classical receptive field contexually differs from
-     ones in extra-classical receptive field, the neuron's responsece cannot be predicted
-     correctly and the concepualizing assumption goes wrong; and thus neurons stay active.
-     
 
 
    * **Other Contextual Surround Effects**:
