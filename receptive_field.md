@@ -17,7 +17,7 @@
 
 
 
-<h2>Receptive Field</h2>
+<h1>Receptive Field</h1>
 
   <img src="images/receptive_field.png" width="250" align="right"/>
 
@@ -42,9 +42,9 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 
+------------------------------------------------------------------------------------------------------------------------
 
-
-  <h3>Classical Receptive Field (CRF)</h3>
+  <h2>Classical Receptive Field (CRF)</h2>
   
   The primary area within the neuron's receptive field where stimulation can 
   directly effects the neuron's response; can either excite or inhibit the neuron.
@@ -63,7 +63,7 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 
-  <h3> Extra-Classical Receptive Field (ECRF) </h3>
+  <h2> Extra-Classical Receptive Field (ECRF) </h2>
 
   <img src="images/crf_ecrf.png" width="300" align="right"/>
 
@@ -99,7 +99,7 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 
-  <h4>Contextual Modulation</h4>
+  <h3>Contextual Modulation</h3>
   
   A neural mechanism by which the stimuli context in the surrounding regions of 
   classical RF can influence neural responses indirectly which causes Surround Suppression.  
@@ -131,8 +131,6 @@ In order for brain to process complex patterns, neurons have different types of 
   <img src="images/v1_n3.png" width="250" align="right"/>
 
    * **Other Contextual Modulation Mechanism Effects (Orientation and Texture)**:
-
-
 
      
      * **Orientation Contrast:** Neurons response to oriented gratings increases if the
