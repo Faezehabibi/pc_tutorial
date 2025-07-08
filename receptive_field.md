@@ -99,29 +99,32 @@ In order for brain to process complex patterns, neurons have different types of 
      that was most likely to activate the neuron is reduced or eliminated when the same 
      stimulus extends beyond the neuron’s classical receptive field (RF)"
      > [Rao & Ballard, 1999]
+
+     **Length Tuned End-stopping Effect**: The neuron's response is suppressed when an
+     optimally oriented bar (excitory stimuli for bar detecting neurons) extends beyond
+     neuron's classical receptive fields. This indicates that neuron responds (activates)
+     when the classical receptive fields carries information and do not responds to the
+     information that is already predictable by the brain system. This indicates the brain
+     is using efficient coding (redundancy reduction).
      
      **Surround Suppression:** The case when the same conceptual/contextual stimuli as
      the extra-classical receptive field spans through the classical receptive field as
      well, the neuron's responsece can  be predicted accurately by generalizing the
      extra-classical receptive field stimuli.
-     In case that the stimuli in the classical receptive field contexually differs from
+     In the case that the stimuli in the classical receptive field contexually differs from
      ones in extra-classical receptive field, the neuron's responsece cannot be predicted
-     correctly and the concepualizing assumption goes wrong.
+     correctly and the concepualizing assumption goes wrong; and thus neurons stay active.
      
-     **Length Tuned End-stopping (End-inhibition) Effect**: The neuron's response is suppressed
-     when an optimally oriented bar extends beyond neuron's classical receptive fields; which arise
-     due to the orientation-dependant correlation in the nature. This indicates that neuron responds
-     (activates) when the classical receptive fields carries information and do not responds the information
-     is already been sent to the brain system. This indicates the brain is using efficient coding (redundancy reduction).
+
 
    * **Other Contextual Surround Effects**:
-     
-     > "When the stimulus properties in a neuron’s receptive field
-     match the stimulus properties in the surrounding region, little
-     response is evoked from the error-detecting neurons because the
-    ‘surround’ can predict the ‘center.’ On the other hand, when the
-     stimulus occurs in isolation, such a prediction fails, eliciting a
-     relatively large response" [1,3].
+
+     > "When the stimulus properties in a neuron’s classical receptive field
+     match the stimulus properties in the surrounding region (ECRF), little
+     response is evoked from the the neuron while when the stimulus occurs
+     in isolation, neuron eliciting a relatively large response.
+     > [Rao & Ballard, 1999]
+      
      
        **Orientation Tuned:** <br>
        **Orientation Contrast Grating:** <br>
@@ -131,13 +134,20 @@ In order for brain to process complex patterns, neurons have different types of 
 
      
 --------------------------------------------------------------------------
-
+Length Tuned End-stopping Effect  indicates the brain is using efficient coding (redundancy reduction).
+     
   To investigate whether some of these effects could
   result from the extended positive correlations along dominant
   orientation directions in natural images, 
 
 
-
+     
+     > "When the stimulus properties in a neuron’s receptive field
+     match the stimulus properties in the surrounding region, little
+     response is evoked from the error-detecting neurons because the
+    ‘surround’ can predict the ‘center.’ On the other hand, when the
+     stimulus occurs in isolation, such a prediction fails, eliciting a
+     relatively large response" [1,3].
 
 
 
