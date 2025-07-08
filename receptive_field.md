@@ -39,7 +39,7 @@ In order for brain to process complex patterns, neurons have different types of 
   the stimuli pattern which is most likely to make the neuron fire [2]. 
 
 
-  <img src="images/crf_ecrf.png" width="250" align="right"/>
+  <img src="images/crf_ecrf.png" width="300" align="right"/>
 
 
 -----------------------------------------------------------------------------------------------------------
