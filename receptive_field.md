@@ -39,7 +39,6 @@ In order for brain to process complex patterns, neurons have different types of 
   the stimuli pattern which is most likely to make the neuron fire [2]. 
 
 
-  <img src="images/crf_ecrf.png" width="300" align="right"/>
 
 
 -----------------------------------------------------------------------------------------------------------
@@ -64,6 +63,9 @@ In order for brain to process complex patterns, neurons have different types of 
 -----------------------------------------------------------------------------------------------------------
 
   <h3> Extra-Classical Receptive Field (ECRF) </h3>
+
+  <img src="images/crf_ecrf.png" width="300" align="right"/>
+
   
    Extra-classical receptive field of a neuron (or non-classical receptive field)
    is the complementary area within the neuron's receptive field that is not intersecting
