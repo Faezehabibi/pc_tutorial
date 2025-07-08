@@ -117,7 +117,6 @@ In order for brain to process complex patterns, neurons have different types of 
   the extra-classical receptive field stimuli. In the case that the stimuli in the classical receptive field 
   contexually differs from ones in extra-classical receptive field, the neuron's responsece cannot be predicted
   correctly and the concepualizing assumption goes wrong; and thus neurons stay active.
-  
   End-stopping (End-inhibition) effect is an example for surround suppression and Length-Tuned End-stopping
   effect is a subcategory of scenarious where neurons shows end-stopping effects.
 
