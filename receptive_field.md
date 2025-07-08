@@ -28,8 +28,8 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 * **Classical RF**: The region where the neuron directly responds to the stimulus, positively or negatively, is called Classical Receptive Field (CRF).
-- **Orientation Tuned Neurons:** Neurons that are precisely tuned to respond directly to stimuli  in their classical receptive field with specific orientations.
-- **Length Tuned Neurons:** Specific neurons are precisely tuned to respond directly to particular stimulus lengths in their classical receptive field.
+ ** **Orientation Tuned Neurons:** Neurons that are precisely tuned to respond directly to stimuli  in their classical receptive field with specific orientations.
+ ** **Length Tuned Neurons:** Specific neurons are precisely tuned to respond directly to particular stimulus lengths in their classical receptive field.
 
 * **Extra-classical RF (Non-classical RF)**: The region outside of the neuron's classical receptive field if can cause neuron to respond indirectly to the stimulus, positively or negatively, is called Cxtra-classical Receptive Field (ECRF) or non-classical RF.
 
