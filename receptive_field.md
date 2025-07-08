@@ -135,7 +135,6 @@ In order for brain to process complex patterns, neurons have different types of 
    is using efficient coding (redundancy reduction).
 
 
-  <img src="images/v1_n3.png" width="250" align="right"/>
 
    * **Other Contextual Modulation Mechanism Effects (Orientation and Texture)**:
 
@@ -152,6 +151,7 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 
+  <img src="images/v1_n3.png" width="250" align="right"/>
 
 
   
