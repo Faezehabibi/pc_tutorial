@@ -98,11 +98,21 @@ In order for brain to process complex patterns, neurons have different types of 
     that was most likely to activate the neuron is reduced or eliminated when the same 
     stimulus extends beyond the neuron’s classical receptive field (RF)"
     > [Rao & Ballard, 1999]
-     
-  **Contextual Modulation:** A neural mechanism by which the stimuli context in the surrounding regions of 
+
+
+
+  <h4>Contextual Modulation</h4>
+  
+  A neural mechanism by which the stimuli context in the surrounding regions of 
   classical RF can influence neural responses indirectly which causes Surround Suppression.  
 
-  **Surround Suppression:** A phenomenon when contextual modulation have inhibitory effects and thus stimuli 
+    > "When the stimulus properties in a neuron’s classical receptive field
+    match the stimulus properties in the surrounding region (ECRF), little
+    response is evoked from the the neuron while when the stimulus occurs
+    in isolation, neuron eliciting a relatively large response.
+    [Rao & Ballard, 1999]
+
+  * **Surround Suppression:** A phenomenon when contextual modulation have inhibitory effects and thus stimuli 
   in areas surrounding the classical receptive field reduce the neuron's response. 
   The case when the same conceptual/contextual stimuli as the extra-classical receptive field spans through 
   the classical receptive field as well, the neuron's responsece can  be predicted accurately by generalizing 
@@ -113,7 +123,7 @@ In order for brain to process complex patterns, neurons have different types of 
   End-stopping (End-inhibition) effect is an example for surround suppression and Length-Tuned End-stopping
   effect is a subcategory of scenarious where neurons shows end-stopping effects.
 
-   **Length Tuned End-stopping Effect:** The neuron's response is suppressed when an
+   * **Length Tuned End-stopping Effect:** The neuron's response is suppressed when an
    optimally oriented bar (excitory stimuli for bar detecting neurons) extends beyond
    neuron's classical receptive fields. This indicates that neuron responds (activates)
    when the classical receptive fields carries information and do not responds to the
@@ -121,18 +131,12 @@ In order for brain to process complex patterns, neurons have different types of 
    is using efficient coding (redundancy reduction).
 
 
------------------------------------------------------------------------------------------------------------
-
   <img src="images/v1_n3.png" width="250" align="right"/>
 
    * **Other Contextual Modulation Mechanism Effects (Orientation and Texture)**:
 
 
-     > "When the stimulus properties in a neuron’s classical receptive field
-     match the stimulus properties in the surrounding region (ECRF), little
-     response is evoked from the the neuron while when the stimulus occurs
-     in isolation, neuron eliciting a relatively large response.
-     > [Rao & Ballard, 1999]
+
      
      * **Orientation Contrast:** Neurons response to oriented gratings increases if the
        orientation contrast between their classical RF and extra-classical RF (surrounding region);
