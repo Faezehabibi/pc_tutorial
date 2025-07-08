@@ -43,7 +43,6 @@ In order for brain to process complex patterns, neurons have different types of 
 
 
 
------------------------------------------------------------------------------------------------------------
 
   <h3>Classical Receptive Field (CRF)</h3>
   
