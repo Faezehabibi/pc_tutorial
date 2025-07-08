@@ -124,22 +124,22 @@ In order for brain to process complex patterns, neurons have different types of 
 -----------------------------------------------------------------------------------------------------------
 
 
-   * **Other Contextual Modulation Mechanism Effects**:
-     * **Orientation Contrast Grating:** Neurons response to oriented gratings increases if the
-       orientation contrast between their classical RF and extra-classical RF (surrounding region);
-        while the same neuron's respond is suppressed if the same orientation of gratings extends in both regions. 
+   * **Other Contextual Modulation Mechanism Effects (Orientation and Texture)**:
+
+  <img src="images/v1_n3.png" width="250" align="right"/>
 
      > "When the stimulus properties in a neuron’s classical receptive field
      match the stimulus properties in the surrounding region (ECRF), little
      response is evoked from the the neuron while when the stimulus occurs
      in isolation, neuron eliciting a relatively large response.
      > [Rao & Ballard, 1999]
-      
      
+     * **Orientation Contrast:** Neurons response to oriented gratings increases if the
+       orientation contrast between their classical RF and extra-classical RF (surrounding region);
+       while the same neuron's respond is suppressed if the same orientation of gratings extends in both regions. 
 
-
-       **Texture Effects:** <br>
-      **Pop-out Texture:** <br>
+      * **Pop-out Texture** 
+      
 
      
 --------------------------------------------------------------------------
@@ -160,7 +160,6 @@ Contextual Modulation and Surround Suppression effects indicates the brain is us
 
 
 
-  <img src="images/v1_n3.png" width="250" align="right"/>
 
 
   
