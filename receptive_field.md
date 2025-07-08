@@ -69,6 +69,10 @@ In order for brain to process complex patterns, neurons have different types of 
   <img src="images/crf_ecrf.png" width="300" align="right"/>
 
 
+    > "A vigorous response to an stimuli within the neuron's classical receptive field 
+    that was most likely to activate the neuron is reduced or eliminated when the same 
+    stimulus extends beyond the neuron’s classical receptive field (RF)"
+    [Rao & Ballard, 1999]
 
    Extra-classical receptive field of a neuron (or non-classical receptive field)
    is the complementary area within the neuron's receptive field that is not intersecting
@@ -93,11 +97,6 @@ In order for brain to process complex patterns, neurons have different types of 
    This prediction of neurons response made based on the prior assumption (generalizatin
    of the stimuli to CRF) can have several effects on the neuron's activity. Depending on 
    the type of deviation, the extra-classical receptive field effect can be grouped as below:
-
-    > "A vigorous response to an stimuli within the neuron's classical receptive field 
-    that was most likely to activate the neuron is reduced or eliminated when the same 
-    stimulus extends beyond the neuron’s classical receptive field (RF)"
-    > [Rao & Ballard, 1999]
 
 
 
