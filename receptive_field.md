@@ -22,8 +22,7 @@
 
 <h1>Receptive Field</h1>
 
-  <img src="images/group_neurons.png" width="250" align="right"/>
-  
+<img src="images/crf_ecrf.png" width="300" align="right"/>
 
 
 Receptive field is the property of a neuron that is used to represent a sensory pattern or stimulation that is 
@@ -73,7 +72,7 @@ In order for brain to process complex patterns, neurons have different types of 
 
   <h2> Extra-Classical Receptive Field (ECRF) </h2>
 
-  <img src="images/crf_ecrf.png" width="300" align="right"/>
+  <img src="images/group_neurons.png" width="300" align="right"/>
 
 
     > "A vigorous response to an stimuli within the neuron's classical receptive field 
