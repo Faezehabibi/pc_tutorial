@@ -1,7 +1,7 @@
 <h1> <img src="images/receptive_field.png" width="50" align="left"/> Neural Activation and Receptive Field </h1> 
 
 
-  <img src="images/active_inactive_neuron.png" width="300" align="right"/>
+  <img src="images/active_inactive_neuron.png" width="250" align="right"/>
   
 
   In the brain, different neurons are specialized to respond to specific patterns of sensory inputs. 
