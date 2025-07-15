@@ -25,6 +25,9 @@
 
   <img src="images/receptive_field.png" width="250" align="right"/>
 
+  <img src="images/group_neurons.png" width="250" align="right"/>
+  
+
 
 Receptive field is the property of a neuron that is used to represent a sensory pattern or stimulation that is 
 expected to stimulate the neuron (increase or decrease the neuron's respond), directly or indirectly. [^longnote]. 
