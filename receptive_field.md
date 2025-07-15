@@ -1,4 +1,4 @@
-<h1> <img src="images/receptive_field.png" width="80" align="left"/> Neural Activation and Receptive Field </h1> 
+<h1> <img src="images/receptive_field.png" width="60" align="left"/> Neural Activation and Receptive Field </h1> 
 
 
   <img src="images/active_inactive_neuron.png" width="300" align="right"/>
