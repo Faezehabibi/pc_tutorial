@@ -18,7 +18,8 @@ The process starts when the light hits the Retina ($t=t_0$).
 Retina's converts the light received to electrical signal.
 In the Retina the input stimuli is processed further through multiple 
 stages before sending to the higher levels. Retina acts like a Difference
-of Gaussian (DoG) filter for the input signal. 
+of Gaussian (DoG) filter for the input signal. [DoG](https://example.com)
+
 
 
 **What goes out from the Retina?**
