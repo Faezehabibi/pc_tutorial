@@ -1,6 +1,14 @@
 # Difference of Gaussian Filter
 
-Gaussian filter enhances specific frequencies while ...
+The difference of Gaussian filter is made of 2 components: A positive Gaussian filter and a negative Gaussian filter.
+The positive Gaussian filter enhances the singnal that matches to its mean value, while
+the negative Gaussian filter suppress the singnal that matches to its mean value.
+In both filters, the effect decays exponentialy when the signal deviates from the mean of the Gaussian.
+
+
+<h2> 💡 Intuition </h2>
+
+
 
 * Horizontal Cells: The negative Gaussian filter, on the other hand, supress particular frequencies.
 * Bipolar Cells: On or Off
