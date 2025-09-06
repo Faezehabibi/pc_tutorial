@@ -6,7 +6,6 @@ like a receive which absorb the information and process it. This early stage pro
 to the moment that our brain perception starts. In order to reduce the processing computation in the 
 visual cortex the Retina reduces the redundancy and only sends the informative signals (the information worth mentioning).
 
-
 <!-- ============================= -->
 <h2> 💡 Intuition </h2>
 
@@ -18,7 +17,8 @@ The process starts when the light hits the Retina ($t=t_0$).
 **What happens in the Retina?**
 Retina's converts the light received to electrical signal.
 In the Retina the input stimuli is processed further through multiple 
-stages before sending to the higher levels. 
+stages before sending to the higher levels. Retina acts like a Difference
+of Gaussian (DoG) filter for the input signal. 
 
 
 **What goes out from the Retina?**
@@ -26,8 +26,6 @@ The Retina's output is the electrical signal encoding the information in the int
 The last processing stage in Retina is called Retina Ganglion Cell (RGC) 
 which passes the Retina's final processed information upward
 to its next processor Lateral geniculate nucleus (LGN).
-
-
 
 
 <!-- ============================= -->
