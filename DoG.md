@@ -5,7 +5,7 @@ Gaussian filter enhances specific frequencies while ...
 * Horizontal Cells: The negative Gaussian filter, on the other hand, supress particular frequencies.
 * Bipolar Cells: On or Off
 * Center-Surround:
-- On-Center Off-Surround: On Bipolar Cells in the center == Gaussian filter (lower variance) and Off Bipolar Cells in the surround == Negative Gaussian filter (higher variance)
+- On-Center Off-Surround (direct excitation in center and direct inhibition in surround): On Bipolar Cells in the center == Gaussian filter (lower variance) and Off Bipolar Cells in the surround == Negative Gaussian filter (higher variance)
 Since the surround is always broader than center, the surround variance in modeling is higher than center variance.
 
 When subtracted, the frequencies
