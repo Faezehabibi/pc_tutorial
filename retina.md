@@ -26,7 +26,15 @@ enhance the edges, spatial contrasts, or discontinuities in general, and
 reduces uniform data. It reduces redundancy to avoid unnecessary processing
 of the information by the higher areas of the brain.
 
-
+<!-- 
+components
+*Horizontal Cells: The negative Gaussian filter, on the other hand, supress particular frequencies.
+*Bipolar Cells: On or Off
+* Center-Surround: Opposite effect of surround and center (On-Center Off-Surround and Off-Center On-Surround).
+- On-Center Off-Surround (direct excitation in center and direct inhibition in surround): On Bipolar Cells in the center == Gaussian filter (lower variance) and Off Bipolar Cells in the surround == Negative Gaussian filter (higher variance)
+Since the surround is always broader than center, the surround variance in modeling is higher than center variance.
+* The signal positive amplifies (excited) at the center but it is negatively suppresses (inhibits) in a donate-shape ring surrounding the central domain approaching to zero when going far away.
+-->
 
 
 **What goes out from the Retina?**
