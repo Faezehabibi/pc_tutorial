@@ -7,7 +7,7 @@ Gaussian filter enhances specific frequencies while ...
 * Center-Surround: Opposite effect of surround and center (On-Center Off-Surround and Off-Center On-Surround).
 - On-Center Off-Surround (direct excitation in center and direct inhibition in surround): On Bipolar Cells in the center == Gaussian filter (lower variance) and Off Bipolar Cells in the surround == Negative Gaussian filter (higher variance)
 Since the surround is always broader than center, the surround variance in modeling is higher than center variance.
-
+* The signal positive amplifies (excited) at the center but it is negatively suppresses (inhibits) in a donate-shape ring surrounding the central domain approaching to zero when going far away.
 
 When subtracted, the frequencies
 in the center are still enhanced positively while 
