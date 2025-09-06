@@ -10,16 +10,22 @@ visual cortex the Retina reduces the redundancy and only sends the informative s
 <h2> 💡 Intuition </h2>
 
 **What goes into the Retina?**
-The Retina's input is the light with different intensities.
-The process starts when the light hits the Retina ($t=t_0$). 
+Retina is the door to the brain. The Retina's input is the light with different intensities.
+The process starts when the light hits the Retina ($t=t_0$). The goal is to pre-processing 
+the visual sensory information and prepare for furthure process by the higher brain areas. 
 
 
 **What happens in the Retina?**
 Retina's converts the light received to electrical signal.
 In the Retina the input stimuli is processed further through multiple 
-stages before sending to the higher levels. Retina acts like a Difference
+stages before sending to the higher levels. Retina uses center-surround 
+organization for receptive fields to acts like Difference
 of Gaussian ([DoG](https://github.com/Faezehabibi/pc_tutorial/blob/62cfad85eed9072791307301d11e3cd0f675507f/DoG.md)) 
-filter for the input signal. 
+filter for the input signal. In the spatial domain (static input pattern), it 
+enhance the edges, spatial contrasts, or discontinuities in general, and 
+reduces uniform data. It reduces redundancy to avoid unnecessary processing
+of the information by the higher areas of the brain.
+
 
 
 
