@@ -34,6 +34,18 @@ enhance the edges, spatial contrasts, or discontinuities in general, and
 reduces uniform data. It reduces redundancy to avoid unnecessary processing
 of the information by the higher areas of the brain.
 
+The final stage in retina processing, there are Retinal Ganglion Cells (RGC) with center-surround receptive fields organization.
+Each ganglion cell receives input from several bipolar cells arranged in a particular way to bring a special functioning.
+In center-surround organization, either a group of On-bipolar cells reside in the center and surrounded by Off-bipolar cells 
+which we call On-center Off-surround or the central group are Off-bipolar cells and they are surrounded by On-bipolar cells which
+form Off-center On-surround receptive fields.
+In on-center off-surround receptive fields, if the 
+In off-center on-surround receptive fields
+
+DoG filters are simulating response to a signal by decoupling RGC's final
+response into two different group of cells with opposit reactions organized in a regime.
+
+
 <!-- 
 components
 *Horizontal Cells: The negative Gaussian filter, on the other hand, supress particular frequencies.
