@@ -36,17 +36,21 @@ of the information by the higher areas of the brain.
 
 The final stage in retina processing, there are Retinal Ganglion Cells (RGC) with [center-surround receptive fields](receptive_field.md) organization.
 Each ganglion cell receives input from several bipolar cells arranged in a particular way to bring a special functioning.
-In center-surround organization, either a group of On-bipolar cells reside in the center and surrounded by Off-bipolar cells 
-which we call On-center Off-surround or the central group are Off-bipolar cells and they are surrounded by On-bipolar cells which
-form Off-center On-surround receptive fields.
-In on-center off-surround receptive fields, if the 
-In off-center on-surround receptive fields
+Bipolar cells are classified into two categories, ON or OFF, based on their response.
+ON bipolar cells: respond maximally when the light intensity is high (light).
+Off bipolar cells: respond maximally when the light intensity is low (darkness).
 
-DoG filters are simulating response to a signal by decoupling RGC's final
-response into two different group of cells with opposit reactions organized in a regime.
 
+
+In center-surround organization, either a group of ON-bipolar cells reside in the center and surrounded by OFF-bipolar cells 
+which we call ON-center OFF-surround or the central group are OFF-bipolar cells and they are surrounded by ON-bipolar cells which
+form Off-center ON-surround receptive fields.
 
 <!-- 
+In ON-center OFF-surround receptive fields, if the 
+In OFF-center ON-surround receptive fields
+DoG filters are simulating response to a signal by decoupling RGC's final
+response into two different group of cells with opposit reactions organized in a regime.
 components
 *Horizontal Cells: The negative Gaussian filter, on the other hand, supress particular frequencies.
 *Bipolar Cells: On or Off
