@@ -1,6 +1,6 @@
 # RGC to PC
 
-<img src="images/PC_brain.jpeg" width="1000" align="right"/>
+<img src="images/PC_brain.jpeg"/>
 
 Extra-classical receptive fields (Contextual Modulation and Surround Suppression) effects clue that the brain is using efficient coding (redundancy reduction).
      
