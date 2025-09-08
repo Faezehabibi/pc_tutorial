@@ -1,5 +1,13 @@
 <h1>Retina and LGN</h1>
 
+<!-- 
+![PC_brain](https://github.com/user-attachments/assets/33fdb152-4c3a-49fc-8eb1-b5d0bc88a263)
+![PC_brain](https://github.com/user-attachments/assets/36260004-c917-4b27-bff8-55e06d53879b)
+-->
+
+<img src="images/PC_brain.jpeg" width="400" align="right"/>
+
+
 Retina preprocess the input information before sending to the brain's visual processing system. 
 When the light beam hits an object and reflects, if it finds its way to our Retina, the retina acts 
 like a receive which absorb the information and process it. This early stage processing happens prior 
