@@ -34,7 +34,7 @@ enhance the edges, spatial contrasts, or discontinuities in general, and
 reduces uniform data. It reduces redundancy to avoid unnecessary processing
 of the information by the higher areas of the brain.
 
-The final stage in retina processing, there are Retinal Ganglion Cells (RGC) with center-surround receptive fields organization.
+The final stage in retina processing, there are Retinal Ganglion Cells (RGC) with [center-surround receptive fields](receptive_field.md) organization.
 Each ganglion cell receives input from several bipolar cells arranged in a particular way to bring a special functioning.
 In center-surround organization, either a group of On-bipolar cells reside in the center and surrounded by Off-bipolar cells 
 which we call On-center Off-surround or the central group are Off-bipolar cells and they are surrounded by On-bipolar cells which
