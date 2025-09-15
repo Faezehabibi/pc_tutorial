@@ -20,7 +20,7 @@ return a scalar value that is called energy which indicates the compatibility of
 
 Each scalar indication layer's energy is the dot product of two vectors representing 
 the "nerual activaty prediction error"  ($\mathbf{e}^l = (\mathbf{z}^l - \boldsymbol{\mu}^l)$) and 
-the "activation mismatch" ( $-\boldsymbol{e}^{(l)} =  \boldsymbol{\mu}^{(l)} - \mathbf{z}^{(l)} $ ) at each layer. 
+the "activation mismatch" ( $-\boldsymbol{e}^{(l)} =  \boldsymbol{\mu}^{(l)} - \mathbf{z}^{(l)}$ ) at each layer. 
 
 $\boldsymbol{e}^l = (\boldsymbol{z}^l - \boldsymbol{\mu}^l)$
 
