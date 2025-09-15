@@ -24,10 +24,13 @@ the "activation mismatch" ($- \mathbf{e}^l = (\boldsymbol{\mu}^l - \mathbf{z}^l)
 
 Then the minimization problem for $E^i = (\mathbf{e}^i)^T(\mathbf{e}^i)$ becomes maximization problem for $-E^i = - (\mathbf{e}^i)^T (\mathbf{e}^i)$
 
+There are other prospectives to it:
+We can say that each layer's energy value is the energy averaged over two directional flow in the netwrok. At each layer $l$, 
 
+$E^l = \frac{E^l_{\mu^l} + E^l_{z^l}}{2} = \frac{1}{2}(\boldsymbol{\mu}^i - \mathbf{z}^i)(\mathbf{z}^i - \boldsymbol{\mu}^i)^T + \frac{1}{2}(\mathbf{z}^i - \boldsymbol{\mu}^i)(\boldsymbol{\mu}^i - \mathbf{z}^i)^T$
 
-$\frac{1}{2}(\boldsymbol{\mu}^i - \mathbf{z}^i)(\mathbf{z}^i - \boldsymbol{\mu}^i)^T + \frac{1}{2}(\mathbf{z}^i - \boldsymbol{\mu}^i)(\boldsymbol{\mu}^i - \mathbf{z}^i)^T$
-
+> Note that inner product of two same dimensional vectors $\boldsymbol{x} \in R^d$ and  $\boldsymbol{y} \in R^d$ is their dot product in Euclidean space. 
+> $<\boldsymbol{x},\boldsymbol{y}> = \sqrt{\sum_{i=0}^{d} (x_i y_i)} =$
 
 $E = \cdots + (\mathbf{e}^i)^T(\mathbf{e}^i) + (\mathbf{e}^{i+1})^T(\mathbf{e}^{i+1}) + \cdots$
 
