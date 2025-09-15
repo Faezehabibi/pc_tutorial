@@ -9,6 +9,7 @@ $E = \sum_{i=0}^{L} E^{(i)} = \cdots + E^{(i)} + E^{(i-1)} + \cdots$
 > This is equal to maximization of negative log likelihood of the multivariate gaussian
 > distribution over the neural activities in each layer.
 
+
 In the lens of energy-based models (EBM) [^longnote], energy function in predictive coding (a scalar value) is measures how much
 the predicted value for neural activity in each layer fits to their actual activity. We can also rephrase the problem as finding 
 a $\boldsymbol{\mu^l}$ that $\boldsymbol{E^l}~(\boldsymbol{\mu^l},\boldsymbol{z^l})$ is low for $\boldsymbol{z^l}$ and vice versa. [1]
@@ -17,13 +18,16 @@ a $\boldsymbol{\mu^l}$ that $\boldsymbol{E^l}~(\boldsymbol{\mu^l},\boldsymbol{z^
 return a scalar value that is called energy which indicates the compatibility of $\boldsymbol{y}$ with observed $\boldsymbol{x}$.
 
 
+Each scalar indication layer's energy is the dot product of two vectors representing 
+the "nerual activaty prediction error"  ($\mathbf{e}^l = (\mathbf{z}^l - \boldsymbol{\mu}^l)$) and 
+the "activation mismatch" ($- \mathbf{e}^l = (\boldsymbol{\mu}^l - \mathbf{z}^l)$) at each layer. 
+
+Then the minimization problem for $E^i = (\mathbf{e}^i)^T(\mathbf{e}^i)$ becomes maximization problem for $-E^i = - (\mathbf{e}^i)^T (\mathbf{e}^i)$
 
 
-dot product of two vectors representing the prediction error and the "activation mismatch" at each layer. 
 
 $\frac{1}{2}(\boldsymbol{\mu}^i - \mathbf{z}^i)(\mathbf{z}^i - \boldsymbol{\mu}^i)^T + \frac{1}{2}(\mathbf{z}^i - \boldsymbol{\mu}^i)(\boldsymbol{\mu}^i - \mathbf{z}^i)^T$
 
-$E^i = (\mathbf{e}^i)^T(\mathbf{e}^i)$ where $\mathbf{e}^i$ 
 
 $E = \cdots + (\mathbf{e}^i)^T(\mathbf{e}^i) + (\mathbf{e}^{i+1})^T(\mathbf{e}^{i+1}) + \cdots$
 
