@@ -22,7 +22,7 @@ Each scalar indication layer's energy is the dot product of two vectors represen
 the "nerual activaty prediction error"  ($\mathbf{e}^l = (\mathbf{z}^l - \boldsymbol{\mu}^l)$) and 
 the "activation mismatch" ($- \mathbf{e}^l = (\boldsymbol{\mu}^l - \mathbf{z}^l)$) at each layer. 
 
-$E = \cdots + \boldsymbol{e}^(l)^T \boldsymbol{e}^(l)) + \boldsymbol{e}^{(l+1)}^T \boldsymbol{e}^{(i+1)} + \cdots$
+$E = \cdots + \boldsymbol{e}^{(l)^T} \boldsymbol{e}^{(l)} + \boldsymbol{e}^{(l+1)^T} \boldsymbol{e}^{(i+1)} + \cdots$
 
 Then the minimization problem for $E^i = (\boldsymbol{e}^i)^T(\boldsymbol{e}^i)$ becomes maximization problem for $-E^i = - (\boldsymbol{e}^i)^T (\boldsymbol{e}^i)$
 
