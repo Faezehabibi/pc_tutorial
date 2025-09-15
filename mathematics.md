@@ -9,10 +9,15 @@ $E = \sum_{i=0}^{L} E^i = \cdots + E^i + E^{i-1} + \cdots$
 > This is equal to maximization of negative log likelihood of the multivariate gaussian
 > distribution over the neural activities in each layer.
 
-In the lens of energy-based models (EBM) which says, given a pair of $(\boldsymbol{x}, \boldsymbol{y})$, 
+In the lens of energy-based models (EBM) [^longnote], energy function in predictive coding (a scalar value) is measures how much
+the predicted value for neural activity in each layer fits to their actual activity. Or we can rephrase the problem as find a $\boldsymbol{\mu^l}$
+that $\boldsymbol{E^l}~(\boldsymbol{\mu^l},\boldsymbol{z^l})$ is low for $\boldsymbol{z^l}$ and vice versa.
+
+[^longnote]: EBM says, given a pair of $(\boldsymbol{x}, \boldsymbol{y})$, 
 return a scalar value that is called energy which indicates the compatibility of $\boldsymbol{y}$ with observed $\boldsymbol{x}$.
 
-energy function in predictive coding (a scalar value) is calculated by 
+
+
 
 dot product of two vectors representing the prediction error and the "activation mismatch" at each layer. 
 
