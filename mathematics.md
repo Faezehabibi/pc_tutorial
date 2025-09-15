@@ -21,7 +21,7 @@ return a scalar value that is called energy which indicates the compatibility of
 
 dot product of two vectors representing the prediction error and the "activation mismatch" at each layer. 
 
-$(\mathbf{z}^i - \boldsymbol{\mu}^i)^T(\boldsymbol{\mu}^i - \mathbf{z}^i) + (\boldsymbol{\mu}^i - \mathbf{z}^i)^T(\mathbf{z}^i - \boldsymbol{\mu}^i)$
+$\frac{1}{2}(\boldsymbol{\mu}^i - \mathbf{z}^i)(\mathbf{z}^i - \boldsymbol{\mu}^i)^T + \frac{1}{2}(\mathbf{z}^i - \boldsymbol{\mu}^i)(\boldsymbol{\mu}^i - \mathbf{z}^i)^T$
 
 $E^i = (\mathbf{e}^i)^T(\mathbf{e}^i)$ where $\mathbf{e}^i$ 
 
