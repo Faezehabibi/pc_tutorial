@@ -22,7 +22,10 @@ Each scalar indication layer's energy is the dot product of two vectors represen
 the "nerual activaty prediction error"  ($\mathbf{e}^l = (\mathbf{z}^l - \boldsymbol{\mu}^l)$) and 
 the "activation mismatch" ($- \mathbf{e}^l = (\boldsymbol{\mu}^l - \mathbf{z}^l)$) at each layer. 
 
-Then the minimization problem for $E^i = (\mathbf{e}^i)^T(\mathbf{e}^i)$ becomes maximization problem for $-E^i = - (\mathbf{e}^i)^T (\mathbf{e}^i)$
+$E = \cdots + (\boldsymbol{e}^i)^T(\boldsymbol{e}^i) + (\boldsymbol{e}^{i+1})^T(\boldsymbol{e}^{i+1}) + \cdots$
+
+Then the minimization problem for $E^i = (\boldsymbol{e}^i)^T(\boldsymbol{e}^i)$ becomes maximization problem for $-E^i = - (\boldsymbol{e}^i)^T (\boldsymbol{e}^i)$
+
 
 There are other prospectives to it:
 We can say that each layer's energy value is the energy averaged over two directional flow in the netwrok. At each layer $l$, 
@@ -33,7 +36,7 @@ $E^l = \frac{E^l_{\mu^l} + E^l_{z^l}}{2} = \frac{1}{2}(\boldsymbol{\mu}^i - \mat
 > a scalar value measuring two vectors alignment.
 > $<\boldsymbol{x},\boldsymbol{y}> = \sqrt{\sum_{i=0}^{d} (x_i y_i)}$
 
-$E = \cdots + (\mathbf{e}^i)^T(\mathbf{e}^i) + (\mathbf{e}^{i+1})^T(\mathbf{e}^{i+1}) + \cdots$
+
 
 $\mathbf{e}^i = (\mathbf{z}^i - \boldsymbol{\mu}^i)$ where dimensions are $(1,d) - (1,d)$
 
