@@ -28,11 +28,13 @@ $E = \cdots + \boldsymbol{e}^{(l)^T} \boldsymbol{e}^{(l)} + \boldsymbol{e}^{(l-1
 
 Then the minimization problem for $E^i = (\boldsymbol{e}^l)^T(\boldsymbol{e}^l)$ becomes maximization problem for $-E^l = - (\boldsymbol{e}^l)^T (\boldsymbol{e}^l)$
 
+$E = \cdots + (\mathbf{z}^i - \boldsymbol{\mu}^i)^T(\mathbf{z}^i - \boldsymbol{\mu}^i) + (\mathbf{z}^{l-1} - \boldsymbol{\mu}^{l-1})^T(\mathbf{z}^{l-1} - \boldsymbol{\mu}^{l-1}) + \cdots$
 
-There are other prospectives to it:
-We can say that each layer's energy value is the energy averaged over two directional flow in the netwrok. At each layer $l$, 
 
-$E^l = \frac{E^l_{\mu^l} + E^l_{z^l}}{2} = \frac{1}{2}(\boldsymbol{\mu}^l - \mathbf{z}^l)(\mathbf{z}^l - \boldsymbol{\mu}^l)^T + \frac{1}{2}(\mathbf{z}^l - \boldsymbol{\mu}^l)(\boldsymbol{\mu}^l - \mathbf{z}^l)^T$
+
+
+
+
 
 > Note that inner product of two same dimensional vectors $\boldsymbol{x} \in R^d$ and  $\boldsymbol{y} \in R^d$ is their dot product in Euclidean space which results in
 > a scalar value measuring two vectors alignment.
@@ -42,12 +44,7 @@ $E^l = \frac{E^l_{\mu^l} + E^l_{z^l}}{2} = \frac{1}{2}(\boldsymbol{\mu}^l - \mat
 
 
 
-
-$E = \cdots + (\mathbf{z}^i - \boldsymbol{\mu}^i)^T(\mathbf{z}^i - \boldsymbol{\mu}^i) + (\mathbf{z}^{l-1} - \boldsymbol{\mu}^{l-1})^T(\mathbf{z}^{l-1} - \boldsymbol{\mu}^{l-1}) + \cdots$
-
-$(\mathbf{z}^i - \boldsymbol{\mu}^i)^T(\boldsymbol{\mu}^i - \mathbf{z}^i) + (\boldsymbol{\mu}^i - \mathbf{z}^i)^T(\mathbf{z}^i - \boldsymbol{\mu}^i) + \cdots$
-
-$\boldsymbol{\mu}^i = f(\mathbf{z}^{i-1})\mathbf{W}^{i-1}$ where dimensions are $(1,d) = (1,d') \cdot (d',d)$ and $\mathbf{W}^{i-1}$ is
+$\boldsymbol{\mu}^i = f(\mathbf{z}^{i-1})\mathbf{W}^{i-1}$
 
 $E = \cdots + (\mathbf{z}^i - f(\mathbf{z}^{i-1})\mathbf{W}^{i-1})^T(\mathbf{z}^i - f(\mathbf{z}^{i-1})\mathbf{W}^{i-1}) + (\mathbf{z}^{i+1} - f(\mathbf{z}^i)\mathbf{W}^i)^T(\mathbf{z}^{i+1} - f(\mathbf{z}^i)\mathbf{W}^i) + \cdots$
 
