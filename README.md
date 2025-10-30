@@ -3,19 +3,28 @@
 <img src="images/PC_brain.jpeg"/>
 
 
-## Retina
+## What we knew before predictive coding?
 
-
-## Clues 
+### Retina
+Last stage in retina, Retinal Ganglion Cells (RGCs), spatially reduces redundancy in sensory input while Lateral Geniculate Nucleus (LGN) reduces redundant information in the time domain.
+Retina spot process the sensory input in a small pathches processed in local in lowest level. Connecting these local patched areas the lines line dot
+And with the lines you can make a scene
+Your retina has lots of units responsible for processing small patches of the visual data
+I it starts by dots
 
 ### Orientation Selective Responde
 Simple cells in Hubble and Wiesel Experiment 1962
+
 ### End-stopped
 Extra-classical receptive fields (Contextual Modulation and Surround Suppression) effects clue that the brain is using efficient coding (redundancy reduction).
-     
 To investigate whether some of these effects could 
 result from the extended positive correlations along 
 dominant orientation directions in natural images, 
 
+### Sparcse Coding (1996)
+Showed Orientation Selective Responde of simple cells
 
-I personally, found reading old papers challenging with lack of required backgrounds. On the other hand working at the computer science field, some of the stuffs looks very obvious since we grow with them, and understanding what has been established before the predictive coding and the way it is a very important framework seems unclear; or at least to me. Here I decided to teach the predictive coding to me, who couldn't find the glory at first but got fascinated when they went into. I hope you enjoy reading my tutorial for the predictive coding (historical attempts to get there since 1962 to 1999).
+## Predictive Coding (1999)
+
+
+As someone with background in computer science and computational math I personally found reading old papers as this one challenging when lack of required backgrounds. On the other hand growing with newer concepts in science and tech, some of the stuffs might look very obvious at first which brings confusing, and determining what has been established before and the predictive coding and what makes it so interesting seems unclear at first; at least to me. Here I decided to teach the predictive coding to me, who couldn't find the glory at first but got fascinated when they delve deeper. I hope you enjoy reading this tutorial for the predictive coding (historical attempts to get there since 1962 to 1999).
