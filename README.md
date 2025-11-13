@@ -33,6 +33,91 @@ Showed Orientation Selective Responde of simple cells
 ## Predictive Coding with NGC-Learn
 -----------------------------------------------------------------------------------------------------
 
+### PC model for Reconstruction Task
+
+<!-- Autoencoder -->
+
+
+
+
+
+#### Build PC model
+
+##### Make Component:
+
+###### 1- Make Neural component:
+we want to build a hierarchical neural network we need neural layers. In predictive coding network with real-valued dynamics
+we use `RateCell` components ([RateCell tutorial](https://ngc-learn.readthedocs.io/en/latest/tutorials/neurocog/rate_cell.html)).
+Here, we want 3-layer network (3-hidden layers) so we define 3 components, each with `n_units` size for hidden representatins.
+
+```python
+z3 = RateCell("z3", n_units=h3_dim, tau_m=tau_m, act_fx=act_fx, prior=(prior_type, lmbda))
+z2 = RateCell("z2", n_units=h2_dim, tau_m=tau_m, act_fx=act_fx, prior=(prior_type, lmbda))
+z1 = RateCell("z1", n_units=h1_dim, tau_m=tau_m, act_fx=act_fx, prior=(prior_type, lmbda))
+```
+
+For each activation layer we have a set of additional neurons with the same size to measure the prediction error for individual 
+`RateCell` components. The error value will later be used to calculate the **energy** for layers (including hiddens) and the whole model.
+
+```python
+e2 = GaussianErrorCell("e2", n_units=h2_dim)
+e1 = GaussianErrorCell("e1", n_units=h1_dim)
+e0 = GaussianErrorCell("e0", n_units=in_dim)
+```
+
+###### 2- Make Synaptic component:
+To connect layers to each others we create synapstic components. To send infromation in forward pass (from input into the network) 
+we use `ForwardSynapse` components and to send the infromation backward (from top layer to bottom/input) we use `BackwardSynapse`
+component. Check out [Information Flow](https://github.com/Faezehabibi/pc_tutorial/blob/19b0692fa307f2b06676ca93b9b93ba3ba854766/information_flow.md)
+for further explanation.
+
+```python
+E3 = ForwardSynapse("E3", shape=(h2_dim, h3_dim))
+E2 = ForwardSynapse("E2", shape=(h1_dim, h2_dim))
+E1 = ForwardSynapse("E1", shape=(in_dim, h1_dim))
+```
+
+
+
+```python
+W3 = BackwardSynapse("W3",
+                     shape=(h3_dim, h2_dim),
+                     n_sub_models=self.n_p3,     ## number of modules in the layer
+                     sign_value=-1.,                  ## -1 means M-step solve minimization problem
+                     optim_type=opt_type,
+                     eta=eta,
+                     weight_init=w3_init,
+                     w_bound=w_bound,
+)
+W2 = BackwardSynapse("W2",
+                     shape=(h2_dim, h1_dim),
+                     n_sub_models=self.n_p2,     ## number of modules in the layer
+                     sign_value=-1.,                  ## -1 means M-step solve minimization problem
+                     optim_type=opt_type,
+                     eta=eta,
+                     weight_init=w2_init,
+                     w_bound=w_bound,
+)
+W1 = BackwardSynapse("W1",
+                     shape=(h1_dim, in_dim),
+                     n_sub_models=n_p1,              ## number of modules in the layer
+                     sign_value=-1.,                 ## -1 means M-step solve minimization problem
+                     optim_type=opt_type,
+                     eta=eta,
+                     weight_init=w1_init,
+                     w_bound=w_bound,
+)
+```
+
+
+Wire components:
+
+
+
+#### Train PC model
+
+
+
 
 <!-- -----------------------------------------------------------------------------------------------------
 > **Some final words**
