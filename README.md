@@ -66,9 +66,9 @@ For each activation layer we have a set of additional neurons with the same size
 `RateCell` components. The error value will later be used to calculate the **energy** for layers (including hiddens) and the whole model.
 
 ```python
-e2 = GaussianErrorCell("e2", n_units=h2_dim)
-e1 = GaussianErrorCell("e1", n_units=h1_dim)
-e0 = GaussianErrorCell("e0", n_units=in_dim)
+e2 = GaussianErrorCell("e2", n_units=h2_dim)          ## e2_size == z2_size
+e1 = GaussianErrorCell("e1", n_units=h1_dim)          ## e1_size == z1_size
+e0 = GaussianErrorCell("e0", n_units=in_dim)          ## e0_size == z0_size (x size)
 ```
 
 ###### 2- Make Synaptic component:
@@ -78,9 +78,9 @@ for detailed explanation of information flow in brain modeling.
 
 
 ```python
-E3 = ForwardSynapse("E3", shape=(h2_dim, h3_dim))
-E2 = ForwardSynapse("E2", shape=(h1_dim, h2_dim))
-E1 = ForwardSynapse("E1", shape=(in_dim, h1_dim))
+E3 = ForwardSynapse("E3", shape=(h2_dim, h3_dim))          ## pre-layer size  (x) => (h1) post-layer size
+E2 = ForwardSynapse("E2", shape=(h1_dim, h2_dim))          ## pre-layer size (h1) => (h2) post-layer size
+E1 = ForwardSynapse("E1", shape=(in_dim, h1_dim))          ## pre-layer size (h2) => (h3) post-layer size
 ```
 
 For each `ForwardSynapse` components sending infromation upward (bottom-up stream) exist a `BackwardSynapse` component to reverse the information flow and 
