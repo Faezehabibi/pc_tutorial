@@ -62,6 +62,7 @@ z2 = RateCell("z2", n_units=h2_dim, tau_m=tau_m, act_fx=act_fx, prior=(prior_typ
 z1 = RateCell("z1", n_units=h1_dim, tau_m=tau_m, act_fx=act_fx, prior=(prior_type, lmbda))
 ```
 
+
 For each activation layer we have a set of additional neurons with the same size to measure the prediction error for individual 
 `RateCell` components. The error value will later be used to calculate the **energy** for layers (including hiddens) and the whole model.
 
