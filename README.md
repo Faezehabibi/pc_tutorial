@@ -52,6 +52,10 @@ Showed Orientation Selective Responde of simple cells
 ##### Make Component:
 
 ###### 1- Make Neural component:
+
+
+**Graded Neurons**
+
 we want to build a hierarchical neural network we need neural layers. In predictive coding network with real-valued dynamics
 we use `RateCell` components ([RateCell tutorial](https://ngc-learn.readthedocs.io/en/latest/tutorials/neurocog/rate_cell.html)).
 Here, we want 3-layer network (3-hidden layers) so we define 3 components, each with `n_units` size for hidden representatins.
@@ -71,7 +75,7 @@ z1 = RateCell("z1", n_units=h1_dim, tau_m=tau_m, act_fx=act_fx, prior=(prior_typ
 
 <img src="images/GEC.png" width="120" align="right"/>
 
-**Error Cells**
+**Error Neurons**
 <br>
 
 
