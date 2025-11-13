@@ -3,6 +3,12 @@
 <img src="images/PC_brain.jpeg"/>
 
 
+
+
+
+
+pre: [Information Flow](https://github.com/Faezehabibi/pc_tutorial/blob/19b0692fa307f2b06676ca93b9b93ba3ba854766/information_flow.md)
+
 ## What we knew before predictive coding?
 
 ### Retina
@@ -66,10 +72,10 @@ e0 = GaussianErrorCell("e0", n_units=in_dim)
 ```
 
 ###### 2- Make Synaptic component:
-To connect layers to each others we create synapstic components. To send infromation in forward pass (from input into the network) 
-we use `ForwardSynapse` components and to send the infromation backward (from top layer to bottom/input) we use `BackwardSynapse`
-component. Check out [Information Flow](https://github.com/Faezehabibi/pc_tutorial/blob/19b0692fa307f2b06676ca93b9b93ba3ba854766/information_flow.md)
-for further explanation.
+To connect layers to each others we create synapstic components. To send infromation in forward pass (from input into deeper layers with a bottom-up stream) 
+we use `ForwardSynapse` components. Check out [Brain's Information Flow](https://github.com/Faezehabibi/pc_tutorial/blob/main/information_flow.md#---information-flow-in-the-brain--)
+for detailed explanation of information flow in brain modeling.
+
 
 ```python
 E3 = ForwardSynapse("E3", shape=(h2_dim, h3_dim))
@@ -77,35 +83,33 @@ E2 = ForwardSynapse("E2", shape=(h1_dim, h2_dim))
 E1 = ForwardSynapse("E1", shape=(in_dim, h1_dim))
 ```
 
-
+For each `ForwardSynapse` components sending infromation upward (bottom-up stream) exist a `BackwardSynapse` component to reverse the information flow and 
+send it back downward (top-down stream -- from top layer to bottom/input). If you are not convinced, check out [Information Flow](https://github.com/Faezehabibi/pc_tutorial/blob/19b0692fa307f2b06676ca93b9b93ba3ba854766/information_flow.md).
 
 ```python
 W3 = BackwardSynapse("W3",
-                     shape=(h3_dim, h2_dim),
-                     n_sub_models=self.n_p3,     ## number of modules in the layer
+                     shape=(h3_dim, h2_dim),          ## pre-layer size (h3) => (h2) post-layer size
+                     optim_type=opt_type,             ## optimization method (sgd, adam, ...)
+                     weight_init=w3_init,             ## W3[t0]: initial values before training at time[t0]
+                     w_bound=w_bound,                 ## -1 for deactivating the bouding synaptic value
                      sign_value=-1.,                  ## -1 means M-step solve minimization problem
-                     optim_type=opt_type,
-                     eta=eta,
-                     weight_init=w3_init,
-                     w_bound=w_bound,
+                     eta=eta,                         ## learning-rate (lr)
 )
 W2 = BackwardSynapse("W2",
-                     shape=(h2_dim, h1_dim),
-                     n_sub_models=self.n_p2,     ## number of modules in the layer
-                     sign_value=-1.,                  ## -1 means M-step solve minimization problem
-                     optim_type=opt_type,
-                     eta=eta,
-                     weight_init=w2_init,
-                     w_bound=w_bound,
+                     shape=(h2_dim, h1_dim),          ## pre-layer size (h2) => (h1) post-layer size
+                     optim_type=opt_type,             ## Optimizer
+                     weight_init=w2_init,             ## W2[t0]
+                     w_bound=w_bound,                 ## -1: deactivate the bouding
+                     sign_value=-1.,                  ## Minimization
+                     eta=eta,                         ## lr
 )
 W1 = BackwardSynapse("W1",
-                     shape=(h1_dim, in_dim),
-                     n_sub_models=n_p1,              ## number of modules in the layer
-                     sign_value=-1.,                 ## -1 means M-step solve minimization problem
-                     optim_type=opt_type,
-                     eta=eta,
-                     weight_init=w1_init,
-                     w_bound=w_bound,
+                     shape=(h1_dim, in_dim),          ## pre-layer size (h1) => (x) post-layer size
+                     optim_type=opt_type,             ## Optimizer
+                     weight_init=w1_init,             ## W1[t0]
+                     w_bound=w_bound,                 ## -1: deactivate the bouding
+                     sign_value=-1.,                  ## Minimization
+                     eta=eta,                         ## lr
 )
 ```
 
