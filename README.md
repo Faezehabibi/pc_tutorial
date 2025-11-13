@@ -69,6 +69,7 @@ z1 = RateCell("z1", n_units=h1_dim, tau_m=tau_m, act_fx=act_fx, prior=(prior_typ
 
 
 
+<!-- ################################################################################ -->
 
 <br>
 <br>
@@ -89,15 +90,21 @@ e1 = GaussianErrorCell("e1", n_units=h1_dim)          ## e1_size == z1_size
 e0 = GaussianErrorCell("e0", n_units=in_dim)          ## e0_size == z0_size (x size)
 ```
 
-
-
-
-
-<br>
-<br>
-
+<!-- ################################################################################ -->
 
 ###### 2- Make Synaptic component:
+
+<!-- ################################################################################ -->
+
+<br>
+<br>
+
+<!-- <img src="images/GEC.png" width="120" align="right"/> -->
+
+**Forward Synapses**
+
+<br>
+
 To connect layers to each others we create synapstic components. To send infromation in forward pass (from input into deeper layers with a bottom-up stream) 
 we use `ForwardSynapse` components. Check out [Brain's Information Flow](https://github.com/Faezehabibi/pc_tutorial/blob/main/information_flow.md#---information-flow-in-the-brain--)
 for detailed explanation of information flow in brain modeling.
@@ -108,6 +115,17 @@ E3 = ForwardSynapse("E3", shape=(h2_dim, h3_dim))          ## pre-layer size  (x
 E2 = ForwardSynapse("E2", shape=(h1_dim, h2_dim))          ## pre-layer size (h1) => (h2) post-layer size
 E1 = ForwardSynapse("E1", shape=(in_dim, h1_dim))          ## pre-layer size (h2) => (h3) post-layer size
 ```
+
+<!-- ################################################################################ -->
+
+<br>
+<br>
+
+<!-- <img src="images/GEC.png" width="120" align="right"/> -->
+
+**Backward Synapses**
+
+<br>
 
 For each `ForwardSynapse` components sending infromation upward (bottom-up stream) exist a `BackwardSynapse` component to reverse the information flow and 
 send it back downward (top-down stream -- from top layer to bottom/input). If you are not convinced, check out [Information Flow](https://github.com/Faezehabibi/pc_tutorial/blob/19b0692fa307f2b06676ca93b9b93ba3ba854766/information_flow.md).
@@ -138,6 +156,13 @@ W1 = BackwardSynapse("W1",
                      eta=eta,                         ## lr
 )
 ```
+
+
+
+
+
+
+
 
 
 Wire components:
