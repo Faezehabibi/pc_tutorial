@@ -63,14 +63,36 @@ z1 = RateCell("z1", n_units=h1_dim, tau_m=tau_m, act_fx=act_fx, prior=(prior_typ
 ```
 
 
+
+
+
+<br>
+<br>
+
+<img src="images/GEC.png" width="120" align="right"/>
+
+**Error Cells**
+<br>
+
+
+
 For each activation layer we have a set of additional neurons with the same size to measure the prediction error for individual 
 `RateCell` components. The error value will later be used to calculate the **energy** for layers (including hiddens) and the whole model.
+
 
 ```python
 e2 = GaussianErrorCell("e2", n_units=h2_dim)          ## e2_size == z2_size
 e1 = GaussianErrorCell("e1", n_units=h1_dim)          ## e1_size == z1_size
 e0 = GaussianErrorCell("e0", n_units=in_dim)          ## e0_size == z0_size (x size)
 ```
+
+
+
+
+
+<br>
+<br>
+
 
 ###### 2- Make Synaptic component:
 To connect layers to each others we create synapstic components. To send infromation in forward pass (from input into deeper layers with a bottom-up stream) 
