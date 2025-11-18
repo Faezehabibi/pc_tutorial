@@ -199,6 +199,7 @@ Corrected prediction comes back from top to the down in the backward pass.
             self.E3.inputs << self.e2.dmu
             self.E2.inputs << self.e1.dmu
             self.E1.inputs << self.e0.dmu
+
             ## Bottom-up modulated errors
             self.z3.j << self.E3.outputs
             self.z2.j << self.E2.outputs
@@ -212,6 +213,7 @@ Corrected prediction comes back from top to the down in the backward pass.
             self.W3.pre << self.z3.zF
             self.W2.pre << self.z2.zF
             self.W1.pre << self.z1.zF
+
             ## Post Synaptic residual error
             self.W3.post << self.e2.dmu
             self.W2.post << self.e1.dmu
