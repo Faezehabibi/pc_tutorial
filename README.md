@@ -227,22 +227,21 @@ Corrected prediction comes back from top to the down in the backward pass.
 ```python
         ######### Process #########
 
+        ########### reset/set all components to their resting values / initial conditions
+        circuit.reset()
+        circuit.clamp_input(obs)
         ## pin/tie feedback synapses to transpose of forward ones
         E1.weights.set(jnp.transpose(W1.weights.value))
         E2.weights.set(jnp.transpose(W2.weights.value))
         E3.weights.set(jnp.transpose(W3.weights.value))
 
-        ## reset/set all components to their resting values / initial conditions
-        circuit.reset()
-        ########################################################################
-        ## Perform several E-steps
-        circuit.clamp_input(obs)
+        ########### Perform several E-steps
         circuit.process(jnp.array([[dt * i, dt] for i in range(T)]))
 
-        ## Perform M-step (scheduled synaptic updates)
+        ########### Perform M-step (scheduled synaptic updates)
         circuit.evolve(t=T, dt=1.)
-        ########################################################################
-        ## Post-processing / probing desired model outputs
+        
+        ########### Post-processing / probing desired model outputs
         obs_mu = e0.mu.value          ## get reconstructed signal
         L0 = e0.L.value               ## calculate reconstruction loss
 ```
