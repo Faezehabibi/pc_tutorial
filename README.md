@@ -91,6 +91,10 @@ e1 = GaussianErrorCell("e1", n_units=h1_dim)          ## e1_size == z1_size
 e0 = GaussianErrorCell("e0", n_units=in_dim)          ## e0_size == z0_size (x size)
 ```
 
+
+<br>
+<br>
+
 <!-- ################################################################################ -->
 
 ###### 2- Make Synaptic component:
