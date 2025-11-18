@@ -236,42 +236,64 @@ Corrected prediction comes back from top to the down in the backward pass.
 
 
 ```python
-        ######### Process #########
-
-        ########### reset/set all components to their resting values / initial conditions
-        circuit.reset()
-
-        ## clamp the signal to the lowest layer activation
-        circuit.clamp_input(obs)
-        z0.z.set(obs)                 ## or directly put obs in e0.target.set(obs)
-
-        ## pin/tie feedback synapses to transpose of forward ones
-        E1.weights.set(jnp.transpose(W1.weights.value))
-        E2.weights.set(jnp.transpose(W2.weights.value))
-        E3.weights.set(jnp.transpose(W3.weights.value))
-
-        ########### Perform several E-steps
-        circuit.process(jnp.array([[dt * i, dt] for i in range(T)]))
-
-        ########### Perform M-step (scheduled synaptic updates)
-        circuit.evolve(t=T, dt=1.)
-        
-        ########### Post-processing / probing desired model outputs
-        obs_mu = e0.mu.value          ## get reconstructed signal
-        L0 = e0.L.value               ## calculate reconstruction loss
+            ######### Process #########
+  
+            ########### reset/set all components to their resting values / initial conditions
+            circuit.reset()
+    
+            ## clamp the signal to the lowest layer activation
+            circuit.clamp_input(obs)
+            z0.z.set(obs)                 ## or directly put obs in e0.target.set(obs)
+    
+            ## pin/tie feedback synapses to transpose of forward ones
+            E1.weights.set(jnp.transpose(W1.weights.value))
+            E2.weights.set(jnp.transpose(W2.weights.value))
+            E3.weights.set(jnp.transpose(W3.weights.value))
+    
+            ########### Perform several E-steps
+            circuit.process(jnp.array([[dt * i, dt] for i in range(T)]))
+    
+            ########### Perform M-step (scheduled synaptic updates)
+            circuit.evolve(t=T, dt=1.)
+            
+            ########### Post-processing / probing desired model outputs
+            obs_mu = e0.mu.value          ## get reconstructed signal
+            L0 = e0.L.value               ## calculate reconstruction loss
 ```
 
 
 
 
-
+<br>
+<br>
+<br>
+<br>
 <!-- ----------------------------------------------------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------------------------------------- -->
 
-#### Train PC model
+#### Train PC model for reconstructing the full image
 
+```python
+    for nb in range(n_batches):
+        Xb = X[nb * mb_size: (nb + 1) * mb_size, :]                                 ## shape: (mb_size, 784)
+        Xmu, Lb = model.process(Xb)
+```
 
+        
+<br>
+<br>
+<!-- ----------------------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------------------- -->
 
+#### Train PC model for reconstructing the full image
+
+```python
+    for nb in range(n_batches):
+        Xb = X[nb * images_per_batch: (nb + 1) * images_per_batch, :]               ## shape: (mb_size, 784)
+        Xb = generate_patch_set(Xb, patch_shape, center=True)
+
+        Xmu, Lb = model.process(Xb)
+```
 
 <!-- -----------------------------------------------------------------------------------------------------
 > **Some final words**
