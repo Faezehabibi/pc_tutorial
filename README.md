@@ -175,56 +175,77 @@ Corrected prediction comes back from top to the down in the backward pass.
 ```python
             ######### feedback (Top-down) #########
             ### actual neural activation
-            self.e2.target << self.z2.z
-            self.e1.target << self.z1.z
+            e2.target << z2.z
+            e1.target << z1.z
 
             ### Top-down prediction
-            self.e2.mu << self.W3.outputs
-            self.e1.mu << self.W2.outputs
-            self.e0.mu << self.W1.outputs
+            e2.mu << W3.outputs
+            e1.mu << W2.outputs
+            e0.mu << W1.outputs
 
             ### Top-down prediction errors
-            self.z1.j_td << self.e1.dtarget
-            self.z2.j_td << self.e2.dtarget
+            z1.j_td << e1.dtarget
+            z2.j_td << e2.dtarget
 
-            self.W3.inputs << self.z3.zF
-            self.W2.inputs << self.z2.zF
-            self.W1.inputs << self.z1.zF
+            W3.inputs << z3.zF
+            W2.inputs << z2.zF
+            W1.inputs << z1.zF
 ```
 
 
 ```python
             ######### forward (Bottom-up) #########
             ## feedforward the errors via synapses
-            self.E3.inputs << self.e2.dmu
-            self.E2.inputs << self.e1.dmu
-            self.E1.inputs << self.e0.dmu
+            E3.inputs << e2.dmu
+            E2.inputs << e1.dmu
+            E1.inputs << e0.dmu
 
             ## Bottom-up modulated errors
-            self.z3.j << self.E3.outputs
-            self.z2.j << self.E2.outputs
-            self.z1.j << self.E1.outputs
+            z3.j << E3.outputs
+            z2.j << E2.outputs
+            z1.j << E1.outputs
 ```
 
 
 ```python
             ######## Hebbian learning #########
             ## Pre Synaptic Activation
-            self.W3.pre << self.z3.zF
-            self.W2.pre << self.z2.zF
-            self.W1.pre << self.z1.zF
+            W3.pre << z3.zF
+            W2.pre << z2.zF
+            W1.pre << z1.zF
 
             ## Post Synaptic residual error
-            self.W3.post << self.e2.dmu
-            self.W2.post << self.e1.dmu
-            self.W1.post << self.e0.dmu
+            W3.post << e2.dmu
+            W2.post << e1.dmu
+            W1.post << e0.dmu
 ```
 
 
 
 
 
+```python
+        ######### Process #########
 
+        ## pin/tie feedback synapses to transpose of forward ones
+        E1.weights.set(jnp.transpose(W1.weights.value))
+        E2.weights.set(jnp.transpose(W2.weights.value))
+        E3.weights.set(jnp.transpose(W3.weights.value))
+
+        ## reset/set all components to their resting values / initial conditions
+        circuit.reset()
+        ########################################################################
+        ## Perform several E-steps
+        circuit.clamp_input(obs)
+        circuit.process(jnp.array([[dt * i, dt] for i in range(T)]))
+
+        ## Perform M-step (scheduled synaptic updates)
+        circuit.evolve(t=T, dt=1.)
+        ########################################################################
+        ## Post-processing / probing desired model outputs
+        obs_mu = e0.mu.value          ## get reconstructed signal
+        L0 = e0.L.value               ## calculate reconstruction loss
+```
 
 
 
