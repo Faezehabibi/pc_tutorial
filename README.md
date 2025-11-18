@@ -55,6 +55,7 @@ Showed Orientation Selective Responde of simple cells
 
 
 **Responding Neurons**
+<br>
 
 We want to build a hierarchical neural network we need neural layers. In predictive coding network with real-valued dynamics
 we use `RateCell` components ([RateCell tutorial](https://ngc-learn.readthedocs.io/en/latest/tutorials/neurocog/rate_cell.html)).
@@ -102,7 +103,6 @@ e0 = GaussianErrorCell("e0", n_units=in_dim)          ## e0_size == z0_size (x s
 <!-- <img src="images/GEC.png" width="120" align="right"/> -->
 
 **Forward Synapses**
-
 <br>
 
 To connect layers to each others we create synapstic components. To send infromation in forward pass (from input into deeper layers with a bottom-up stream) 
@@ -124,7 +124,6 @@ E1 = ForwardSynapse("E1", shape=(in_dim, h1_dim))          ## pre-layer size (h2
 <!-- <img src="images/GEC.png" width="120" align="right"/> -->
 
 **Backward Synapses**
-
 <br>
 
 For each `ForwardSynapse` components sending infromation upward (bottom-up stream) exist a `BackwardSynapse` component to reverse the information flow and 
@@ -163,11 +162,74 @@ W1 = BackwardSynapse("W1",
 
 
 
+<!-- ----------------------------------------------------------------------------------------------------- -->
+
+##### Wire Component:
 
 
-Wire components:
+The signal pathway is according to Rao & Ballard 1999.
+Error is information goes from buttom to up in the forward pass.
+Corrected prediction comes back from top to the down in the backward pass.
 
 
+```python
+            ######### feedback (Top-down) #########
+            ### actual neural activation
+            self.e2.target << self.z2.z
+            self.e1.target << self.z1.z
+
+            ### Top-down prediction
+            self.e2.mu << self.W3.outputs
+            self.e1.mu << self.W2.outputs
+            self.e0.mu << self.W1.outputs
+
+            ### Top-down prediction errors
+            self.z1.j_td << self.e1.dtarget
+            self.z2.j_td << self.e2.dtarget
+
+            self.W3.inputs << self.z3.zF
+            self.W2.inputs << self.z2.zF
+            self.W1.inputs << self.z1.zF
+```
+
+
+```python
+            ######### forward (Bottom-up) #########
+            ## feedforward the errors via synapses
+            self.E3.inputs << self.e2.dmu
+            self.E2.inputs << self.e1.dmu
+            self.E1.inputs << self.e0.dmu
+            ## Bottom-up modulated errors
+            self.z3.j << self.E3.outputs
+            self.z2.j << self.E2.outputs
+            self.z1.j << self.E1.outputs
+```
+
+
+```python
+            ######## Hebbian learning #########
+            ## Pre Synaptic Activation
+            self.W3.pre << self.z3.zF
+            self.W2.pre << self.z2.zF
+            self.W1.pre << self.z1.zF
+            ## Post Synaptic residual error
+            self.W3.post << self.e2.dmu
+            self.W2.post << self.e1.dmu
+            self.W1.post << self.e0.dmu
+```
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------------------- -->
 
 #### Train PC model
 
