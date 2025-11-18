@@ -240,7 +240,11 @@ Corrected prediction comes back from top to the down in the backward pass.
 
         ########### reset/set all components to their resting values / initial conditions
         circuit.reset()
+
+        ## clamp the signal to the lowest layer activation
         circuit.clamp_input(obs)
+        z0.z.set(obs)                 ## or directly put obs in e0.target.set(obs)
+
         ## pin/tie feedback synapses to transpose of forward ones
         E1.weights.set(jnp.transpose(W1.weights.value))
         E2.weights.set(jnp.transpose(W2.weights.value))
