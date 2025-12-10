@@ -9,7 +9,7 @@
 
 pre: [Information Flow](https://github.com/Faezehabibi/pc_tutorial/blob/19b0692fa307f2b06676ca93b9b93ba3ba854766/information_flow.md)
 
-## What we knew before predictive coding?
+## Where the science were before predictive coding?
 
 ### Retina
 Last stage in retina, Retinal Ganglion Cells (RGCs), spatially reduces redundancy in sensory input while Lateral Geniculate Nucleus (LGN) reduces redundant information in the time domain.
